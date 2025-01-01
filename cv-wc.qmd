@@ -1,0 +1,157 @@
+---
+format:
+  pdf:
+    toc: false
+    number-sections: false
+    colorlinks: true
+    documentclass: scrartcl
+    papersize: letter
+    pdf-engine: xelatex
+    fontsize: 10pt
+    geometry:
+      - margin=1in
+      - heightrounded
+    include-in-header:
+      - preamble.tex
+execute:
+  warning: false
+  echo: false
+  message: false
+  eval: true
+---
+
+```{r}
+#| name: setup
+#| include: false
+#| message: false
+#| eval: true
+
+knitr::opts_chunk$set(
+  fig.path = "figs/",
+  fig.width = 7.252,
+  fig.height = 4,
+  comment = "#>",
+  fig.retina = 3
+)
+
+source("functions.R")
+
+# Store IDs
+gscholar_id <- 'DY2D56IAAAAJ'
+gscholar_page <- paste0("https://scholar.google.com/citations?user=", gscholar_id)
+```
+
+\par\centering{\LARGE{Weisi Chen}}
+\par\centering{Data Analyst}
+\vspace{-5pt}
+\par\centering{The university of New South Wales}
+\vspace{-5pt}
+\par\centering{School of population health}
+\vspace{-5pt}
+\par\centering{Sydney NSW 2033, Australia}
+\vspace{-5pt}
+\par\centering{{\large\Telefon} 0452476995}
+\vspace{-5pt}
+\par\centering{{\large\Letter} weisi.0816@gmail.com}
+\vspace{-5pt}
+
+\vspace{-10pt}
+
+
+# Profile
+
+\vspace{-10pt}
+\begin{longtable}{llp{15cm}}
+Hard-working and highly disciplined professional with a strong passion for\\ programming, data analysis, data visualization, and statistical modeling.\\ Leveraging a unique blend of training in pharmacy and health data science,\\
+I specialize in deriving actionable insights from complex datasets.\\
+My current interest lies in population-level analysis using linked data \\
+to drive impactful health decisions and inform evidence-based strategies.
+\end{longtable}
+
+\vspace{-10pt}
+
+
+# Work experience
+
+\vspace{-10pt}
+\begin{longtable}{llp{15cm}}
+July 2023 - Present & \textbf{The university of NSW}, Sydney, NSW & \\
+ & Data scientist, School of population health\\[5pt]
+
+Feb 2023 - Dec 2023 & \textbf{The university of Sydney}, Sydney, NSW & \\
+ & Data scientist/research officer, School of pharmacy\\
+\end{longtable}
+
+\vspace{-10pt}
+
+
+# Education & Training
+
+\vspace{-10pt}
+\begin{longtable}{lll}
+
+    2023 & The university of New South Wales, & M.S health data science\\
+
+    \multicolumn{3}{l}{Dissertation: \emph{Changes in atherosclerotic cardiovascular disease risk over time among people living with HIV}}\\
+    
+    2019 & The university of Sydney & B.S. Pharmacy\\
+
+\end{longtable}
+
+\vspace{-10pt}
+
+# Research Interests
+
+- **Programming \& Data Analytics**
+- **Data linkage studies using population-level data**
+- **Pharmaco-epidemiology**
+
+\vspace{-10pt}
+
+
+# Skills
+
+- **Complex data analysis**
+- **Data visualization**
+- **Statistical modelling**
+- **SAS**
+- **R**
+
+\vspace{-10pt}
+
+
+
+# Publications
+
+<!-- Set spacing in between list -->
+
+\apptocmd{\tightlist}{\setlength{\itemsep}{4pt}}{}{}
+
+[Google Scholar Profile](https://scholar.google.com.au/citations?user=iCapTGoAAAAJ&hl=en)
+
+
+## A. Refereed Journal Articles
+
+```{r}
+pubs <- get_cv_sheet('pubs') %>%
+  mutate(
+    journal  = ifelse(is.na(journal), '', paste0('_', journal, '_.')),
+    number   = ifelse(is.na(number), '', paste0(number, '.')),
+    doi      = ifelse(
+               is.na(doi), '',
+               paste0('DOI: [', doi, '](', 'https://doi.org/', doi, ')')),
+    year     = paste0("(", year, ")"),
+    title    = enquote(title),
+    citation = paste(author, year, title, journal, number, doi)
+  ) %>% 
+  arrange(desc(pub_date))
+```
+
+```{r}
+#| results: asis
+
+make_ordered_list_filtered(pubs, "peer_reviewed")
+```
+
+
+
