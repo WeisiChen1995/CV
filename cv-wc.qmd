@@ -42,18 +42,15 @@ gscholar_page <- paste0("https://scholar.google.com/citations?user=", gscholar_i
 ```
 
 \par\centering{\LARGE{Weisi Chen}}
-\par\centering{Data Analyst}
+\par\centering{Data Scientist}
 \vspace{-5pt}
-\par\centering{The university of New South Wales}
-\vspace{-5pt}
-\par\centering{School of population health}
-\vspace{-5pt}
-\par\centering{Sydney NSW 2033, Australia}
+\par\centering{Kensington, NSW 2033, Australia}
 \vspace{-5pt}
 \par\centering{{\large\Telefon} 0452476995}
 \vspace{-5pt}
-\par\centering{{\large\Letter} weisi.0816@gmail.com}
+\par\centering{{\large\Letter} weisi.s.chen@sydney.edu.au | weisi.0816@gmail.com}
 \vspace{-5pt}
+\par\centering{\href{https://github.com/WeisiChen1995}{github.com/WeisiChen1995}}
 
 \vspace{-10pt}
 
@@ -62,63 +59,74 @@ gscholar_page <- paste0("https://scholar.google.com/citations?user=", gscholar_i
 
 \vspace{-10pt}
 \begin{longtable}{llp{15cm}}
-Hard-working and highly disciplined professional with a strong passion for\\ programming, data analysis, data visualization, and statistical modeling.\\ Leveraging a unique blend of training in pharmacy and health data science,\\
-I specialize in deriving actionable insights from complex datasets.\\
-My current interest lies in population-level analysis using linked data \\
-to drive impactful health decisions and inform evidence-based strategies.
+I am a highly disciplined and hard-working individual professional with a strong passion for\\ technology, programming, data analysis, data visualization, and statistical modeling.\\ Leveraging a unique blend of training in pharmacy and health data science,\\
+I specialize in deriving actionable insights from complex health datasets.\\[10pt]
+
+I am proficient in statistical software such as R and SAS, and have extensive experience\\
+using these tools for data analysis, visualiztaion, and statistical modelling. \\
+I am deeply committed to continuous learning and professional development, \\
+always eager to explore new packages, techniques, or skills that can enhance my ability\\
+to analyze data effectively and deliver meaningful insights.\\[10pt]
+
+My current interest lies in population-level analysis using linked health data \\
+to drive impactful health decisions and inform evidence-based strategies.\\
+I thrive on tackling challenging problems with analytical precision and creativity,\\
+always striving to deliver impactful results in every project I undertake.\\
+
 \end{longtable}
 
 \vspace{-10pt}
 
 
-# Work experience
-
-\vspace{-10pt}
-\begin{longtable}{llp{15cm}}
-July 2023 - Present & \textbf{The university of NSW}, Sydney, NSW & \\
- & Data scientist, School of population health\\[5pt]
-
-Feb 2023 - Dec 2023 & \textbf{The university of Sydney}, Sydney, NSW & \\
- & Data scientist/research officer, School of pharmacy\\
-\end{longtable}
-
-\vspace{-10pt}
-
-
-# Education & Training
+# Education 
 
 \vspace{-10pt}
 \begin{longtable}{lll}
 
-    2023 & The university of New South Wales, & M.S health data science\\
+    \textbf{Sept 2021 - March 2023} & \textbf{University of New South Wales} & \textbf{M.S. Health Data Science} \\
+    & & WAM: 88\% \\
+    \multicolumn{3}{l}{\textit{Dissertation: Changes in atherosclerotic cardiovascular disease risk over time among people living with HIV}} \\[10pt]
 
-    \multicolumn{3}{l}{Dissertation: \emph{Changes in atherosclerotic cardiovascular disease risk over time among people living with HIV}}\\
-    
-    2019 & The university of Sydney & B.S. Pharmacy\\
+    \textbf{March 2015 - March 2019} & \textbf{University of Sydney} & \textbf{B.S. Pharmacy} \\
+
 
 \end{longtable}
 
 \vspace{-10pt}
 
-# Research Interests
 
-- **Programming \& Data Analytics**
-- **Data linkage studies using population-level data**
-- **Pharmaco-epidemiology**
+# Employment History
 
 \vspace{-10pt}
+\begin{longtable}{llp{14cm}}
 
+    \textbf{July 2023 - Present} & \textbf{University of New South Wales}, Sydney, NSW & \\
+    & \textbf{Data Scientist}, School of Population Health \\[5pt]
+    & \multicolumn{2}{l}{I contributed to two projects in this role:} \\
+    & 1) ACCESS: Aboriginal Community Controlled Ear Health Support System: \\
+    & \hspace{15pt} Developing, embedding, and evaluating best practice models of care. \\[5pt]
+    & 2) Evaluation of Sustaining NSW Families, NSW Health. \\[10pt]
+    & My role included: \\
+    & - Critically reviewed the literature on epidemiological and statistical methods\\
+    & to inform the development of analysis plans.\\[5pt]
+    & - Drafted data management and data analysis plans, with input from the research team.\\[5pt]
+    & - Implemented the data management plan to prepare analysis-ready datasets from linked  \\
+    & datasets, including data cleaning and manipulation, using software R and SAS.\\[5pt]
+    & - Executed statistical analysis of linked data, with academic supervision,\\       & using statistical packages R and SAS.\\[5pt]
+    & - Drafted scientific papers, protocols and conference abstracts, with academic supervision. \\[5pt]
+    & - Contributed to the project management of research projects to the highest scientific\\
+    & and ethical standards. \\[5pt]
+    & - Drafted applications and contribute to ongoing reporting to the relevant ethics committees\\
+    & and data custodians for research projects.\\[5pt]
+    & - Maintained regular communication with project investigators and Aboriginal community \\
+    & organizations to ensure the program is delivered in a culturally appropriate manner. \\[10pt]
+    
+    \textbf{Feb 2023 - Dec 2023} & \textbf{The University of Sydney}, Sydney, NSW & \\
+    & \textbf{Data Scientist/Research Officer}, School of Pharmacy \\
 
-# Skills
-
-- **Complex data analysis**
-- **Data visualization**
-- **Statistical modelling**
-- **SAS**
-- **R**
+\end{longtable}
 
 \vspace{-10pt}
-
 
 
 # Publications
@@ -130,7 +138,7 @@ Feb 2023 - Dec 2023 & \textbf{The university of Sydney}, Sydney, NSW & \\
 [Google Scholar Profile](https://scholar.google.com.au/citations?user=iCapTGoAAAAJ&hl=en)
 
 
-## A. Refereed Journal Articles
+## Peer-reviewed Journal Articles
 
 ```{r}
 pubs <- get_cv_sheet('pubs') %>%
