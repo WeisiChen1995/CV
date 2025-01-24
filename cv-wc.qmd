@@ -59,7 +59,7 @@ gscholar_page <- paste0("https://scholar.google.com/citations?user=", gscholar_i
 
 \vspace{-10pt}
 \begin{longtable}{llp{15cm}}
-I am a highly disciplined and hard-working individual professional with a strong passion for\\ technology, programming, data analysis, data visualization, and statistical modeling.\\ Leveraging a unique blend of training in pharmacy and health data science,\\
+I am a highly disciplined and hard-working professional with a strong passion for\\ technology, programming, data analysis, data visualization, and statistical modeling.\\ Leveraging a unique blend of training in pharmacy and health data science,\\
 I specialize in deriving actionable insights from complex health datasets.\\[10pt]
 
 I am proficient in statistical software such as R and SAS, and have extensive experience\\
@@ -97,6 +97,8 @@ always striving to deliver impactful results in every project I undertake.\\
 
 # Employment History
 
+\raggedright \underline{\textbf{Research-focused Positions}}
+
 \vspace{-10pt}
 \begin{longtable}{llp{14cm}}
 
@@ -125,12 +127,35 @@ always striving to deliver impactful results in every project I undertake.\\
     & \multicolumn{2}{l}{\textbf{Key Responsibilities:}} \\[5pt]
     & \multicolumn{2}{p{0.8\textwidth}}{- Preparing analysis-ready datasets from linked datasets, including data cleaning and manipulation, using R software.} \\[5pt]
     & \multicolumn{2}{p{0.8\textwidth}}{- Conducting data analysis and statistical modeling (e.g., logistic regression) relevant to the project.} \\
-    & \multicolumn{2}{p{0.8\textwidth}}{- Assisting with ongoing data management and documentations for reproducibility..} \\
+    & \multicolumn{2}{p{0.8\textwidth}}{- Contributing to publications and conference abstracts.} \\
+    & \multicolumn{2}{p{0.8\textwidth}}{- Assisting with ongoing data management and documentations for reproducibility.} \\
  
 
 \end{longtable}
 
 \vspace{-10pt}
+
+\raggedright \underline{\textbf{Clinical-focused Posistion}}
+
+\vspace{-10pt}
+\begin{longtable}{llp{14cm}}
+
+    \textbf{Mar 2021 - Dec 2024} & \textbf{Bondi Junction Pharmacy}, Sydney, NSW & \\
+    & \textbf{Pharmacist in charge (FTE 0.2)}\\[5pt]
+
+    \textbf{Mar 2021 - Dec 2024} & \textbf{Blooms the Chemsit Bondi Junction}, Sydney, NSW & \\
+    & \textbf{Pharmacist on duty (FTE 0.4)}\\[5pt]
+
+    \textbf{Mar 2020 - Sept 2020} & \textbf{Chemist Warehouse Double  Bay}, Sydney, NSW & \\
+    & \textbf{Registered Pharmacist}\\[5pt]
+
+    \textbf{Dec 2018 - March 2020} & \textbf{Chemist Warehouse Randwick}, Sydney, NSW & \\
+    & \textbf{Graduate Intern Pharmacist}\\[5pt]
+
+\end{longtable}
+
+\vspace{-10pt}
+
 
 # Research Interests
 
@@ -155,8 +180,9 @@ patterns, ultimately informing safer, evidence-based healthcare practices. \\[10
 
 \apptocmd{\tightlist}{\setlength{\itemsep}{4pt}}{}{}
 
-[Google Scholar Profile](https://scholar.google.com.au/citations?user=iCapTGoAAAAJ&hl=en)
-
+\begin{center}
+\href{https://scholar.google.com.au/citations?user=iCapTGoAAAAJ\&hl=en}{Google Scholar Profile}
+\end{center}
 
 ## Peer-reviewed Journal Articles
 
