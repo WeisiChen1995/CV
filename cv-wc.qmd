@@ -103,26 +103,46 @@ always striving to deliver impactful results in every project I undertake.\\
     \textbf{July 2023 - Present} & \textbf{University of New South Wales}, Sydney, NSW & \\
     & \textbf{Data Scientist}, School of Population Health \\[5pt]
     & \multicolumn{2}{l}{I contributed to two projects in this role:} \\
-    & 1) ACCESS: Aboriginal Community Controlled Ear Health Support System: \\
+    & 1) ACCESS: Aboriginal Community Controlled Ear Health Support System: \\ 
     & \hspace{15pt} Developing, embedding, and evaluating best practice models of care. \\[5pt]
     & 2) Evaluation of Sustaining NSW Families, NSW Health. \\[10pt]
-    & My role included: \\
-    & - Critically reviewed the literature on epidemiological and statistical methods\\
-    & to inform the development of analysis plans.\\[5pt]
-    & - Drafted data management and data analysis plans, with input from the research team.\\[5pt]
-    & - Implemented the data management plan to prepare analysis-ready datasets from linked  \\
-    & datasets, including data cleaning and manipulation, using software R and SAS.\\[5pt]
-    & - Executed statistical analysis of linked data, with academic supervision,\\       & using statistical packages R and SAS.\\[5pt]
-    & - Drafted scientific papers, protocols and conference abstracts, with academic supervision. \\[5pt]
-    & - Contributed to the project management of research projects to the highest scientific\\
-    & and ethical standards. \\[5pt]
-    & - Drafted applications and contribute to ongoing reporting to the relevant ethics committees\\
-    & and data custodians for research projects.\\[5pt]
-    & - Maintained regular communication with project investigators and Aboriginal community \\
-    & organizations to ensure the program is delivered in a culturally appropriate manner. \\[10pt]
+    & \multicolumn{2}{l}{\textbf{My role included:}} \\[5pt]
+    & \multicolumn{2}{p{0.8\textwidth}}{- Critically reviewing the literature on epidemiological and statistical methods to inform the development of analysis plans.} \\[5pt]
+    & \multicolumn{2}{p{0.8\textwidth}}{- Drafting data management and data analysis plans, with input from the research team.} \\[5pt]
+    & \multicolumn{2}{p{0.8\textwidth}}{- Implementing the data management plan to prepare analysis-ready datasets from linked datasets, including data cleaning and manipulation, using R and SAS software.} \\[5pt]
+    & \multicolumn{2}{p{0.8\textwidth}}{- Executing statistical analysis of linked data (e.g., logistic regression and reverse probability weighting), with academic supervision, using statistical packages R and SAS.} \\[5pt]
+    & \multicolumn{2}{p{0.8\textwidth}}{- Drafting scientific papers, protocols, and conference abstracts, with academic supervision.} \\[5pt]
+    & \multicolumn{2}{p{0.8\textwidth}}{- Contributing to the project management of research projects to the highest scientific and ethical standards.} \\[5pt]
+    & \multicolumn{2}{p{0.8\textwidth}}{- Drafting applications and contributing to ongoing reporting to the relevant ethics committees and data custodians for research projects.} \\[5pt]
+    & \multicolumn{2}{p{0.8\textwidth}}{- Maintaining regular communication with project investigators and Aboriginal community organizations to ensure the program is delivered in a culturally appropriate manner.} \\[10pt]
     
-    \textbf{Feb 2023 - Dec 2023} & \textbf{The University of Sydney}, Sydney, NSW & \\
-    & \textbf{Data Scientist/Research Officer}, School of Pharmacy \\
+    \\[10pt] % Add more vertical space before the next section
+    
+    \textbf{Feb 2023 - Dec 2023} & \textbf{University of Sydney}, Sydney, NSW & \\
+    & \textbf{Data Scientist/Research Officer}, School of Pharmacy, (FTE 0.4) \\[5pt]
+    & \multicolumn{2}{l}{In this role, I contributed to the Multi-Agency Data Integration Project (MADIP):} \\
+    & \multicolumn{2}{p{0.8\textwidth}}{Investigating high-risk prescribing in Australian older adults.} \\[10pt]
+    & \multicolumn{2}{l}{\textbf{Key Responsibilities:}} \\[5pt]
+    & \multicolumn{2}{p{0.8\textwidth}}{- Preparing analysis-ready datasets from linked datasets, including data cleaning and manipulation, using R software.} \\[5pt]
+    & \multicolumn{2}{p{0.8\textwidth}}{- Conducting data analysis and statistical modeling (e.g., logistic regression) relevant to the project.} \\
+    & \multicolumn{2}{p{0.8\textwidth}}{- Assisting with ongoing data management and documentations for reproducibility..} \\
+ 
+
+\end{longtable}
+
+\vspace{-10pt}
+
+# Research Interests
+
+\vspace{-10pt}
+\begin{longtable}{llp{15cm}}
+I am passionate about pharmaco-epidemiology, with a particular focus on high-risk medication prescribing\\
+using national, population-level linked data. \\[5pt]
+
+I have extensive experience with data analysis, visualization, and statistical modeling tools. \\[5pt]
+
+My goal is to contribute to public health improvement by analyzing and understanding medication prescribing  \\ 
+patterns, ultimately informing safer, evidence-based healthcare practices. \\[10pt]
 
 \end{longtable}
 
