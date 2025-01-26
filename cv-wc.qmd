@@ -215,7 +215,7 @@ make_ordered_list_filtered(pubs, "peer_reviewed")
 make_ordered_list_filtered(pubs, "working_paper")
 ```
 
-## C. Working reports
+## C. Working Reports
 
 ```{r}
 #| results: asis
@@ -224,7 +224,7 @@ make_ordered_list_filtered(pubs, "working_report")
 ```
 
 
-## D. Contributed presentations
+## D. Contributed Presentations
 
 ```{r}
 presentations <- get_cv_sheet('presentations') %>%
