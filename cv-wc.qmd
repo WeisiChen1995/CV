@@ -63,7 +63,7 @@ I am a highly disciplined and hard-working professional with a strong passion fo
 I specialize in deriving actionable insights from complex health datasets.\\[10pt]
 
 I am proficient in statistical software such as R and SAS, and have extensive experience\\
-using these tools for data analysis, visualiztaion, and statistical modelling. \\
+using these tools for data analysis, visualization, and statistical modelling. \\
 I am deeply committed to continuous learning and professional development, \\
 always eager to explore new packages, techniques, or skills that can enhance my ability\\
 to analyze data effectively and deliver meaningful insights.\\[10pt]
@@ -84,7 +84,7 @@ always striving to deliver impactful results in every project I undertake.\\
 \begin{longtable}{lll}
 
     \textbf{Sept 2021 - March 2023} & \textbf{University of New South Wales} & \textbf{M.S. Health Data Science} \\
-    & & WAM: 88\% \\
+    & & WAM: 88\% (Dissertation: 91\%) \\
     \multicolumn{3}{l}{\textit{Dissertation: Changes in atherosclerotic cardiovascular disease risk over time among people living with HIV}} \\[10pt]
 
     \textbf{March 2015 - March 2019} & \textbf{University of Sydney} & \textbf{B.S. Pharmacy} \\
@@ -112,7 +112,7 @@ always striving to deliver impactful results in every project I undertake.\\
     & \multicolumn{2}{p{0.8\textwidth}}{- Critically reviewing the literature on epidemiological and statistical methods to inform the development of analysis plans.} \\[5pt]
     & \multicolumn{2}{p{0.8\textwidth}}{- Drafting data management and data analysis plans, with input from the research team.} \\[5pt]
     & \multicolumn{2}{p{0.8\textwidth}}{- Implementing the data management plan to prepare analysis-ready datasets from linked datasets, including data cleaning and manipulation, using R and SAS software.} \\[5pt]
-    & \multicolumn{2}{p{0.8\textwidth}}{- Executing statistical analysis of linked data (e.g., logistic regression and reverse probability weighting), with academic supervision, using statistical packages R and SAS.} \\[5pt]
+    & \multicolumn{2}{p{0.8\textwidth}}{- Executing statistical analysis of linked data (e.g., logistic regression and inverse probability of treatment weighting), with academic supervision, using statistical packages R and SAS.} \\[5pt]
     & \multicolumn{2}{p{0.8\textwidth}}{- Drafting scientific papers, protocols, and conference abstracts, with academic supervision.} \\[5pt]
     & \multicolumn{2}{p{0.8\textwidth}}{- Contributing to the project management of research projects to the highest scientific and ethical standards.} \\[5pt]
     & \multicolumn{2}{p{0.8\textwidth}}{- Drafting applications and contributing to ongoing reporting to the relevant ethics committees and data custodians for research projects.} \\[5pt]
@@ -123,10 +123,10 @@ always striving to deliver impactful results in every project I undertake.\\
     \textbf{Feb 2023 - Dec 2023} & \textbf{University of Sydney}, Sydney, NSW & \\
     & \textbf{Data Scientist/Research Officer}, School of Pharmacy, (FTE 0.4) \\[5pt]
     & \multicolumn{2}{l}{In this role, I contributed to the Multi-Agency Data Integration Project (MADIP):} \\
-    & \multicolumn{2}{p{0.8\textwidth}}{Investigating high-risk prescribing in Australian older adults.} \\[10pt]
+    & \multicolumn{2}{p{0.8\textwidth}}{Investigating high-risk prescribing in Australian older adults using the linked PBS and Census data.} \\[15pt]
     & \multicolumn{2}{l}{\textbf{Key Responsibilities:}} \\[5pt]
     & \multicolumn{2}{p{0.8\textwidth}}{- Preparing analysis-ready datasets from linked datasets, including data cleaning and manipulation, using R software.} \\[5pt]
-    & \multicolumn{2}{p{0.8\textwidth}}{- Conducting data analysis and statistical modeling (e.g., logistic regression) relevant to the project.} \\
+    & \multicolumn{2}{p{0.8\textwidth}}{- Conducting data analysis and statistical modeling (e.g., logistic regression) relevant to the project, under the acedemic supervision.} \\
     & \multicolumn{2}{p{0.8\textwidth}}{- Contributing to publications and conference abstracts.} \\
     & \multicolumn{2}{p{0.8\textwidth}}{- Assisting with ongoing data management and documentations for reproducibility.} \\
  
@@ -146,10 +146,10 @@ always striving to deliver impactful results in every project I undertake.\\
     \textbf{Mar 2021 - Dec 2024} & \textbf{Blooms the Chemsit Bondi Junction}, Sydney, NSW & \\
     & \textbf{Pharmacist on duty (FTE 0.4)}\\[5pt]
 
-    \textbf{Mar 2020 - Sept 2020} & \textbf{Chemist Warehouse Double  Bay}, Sydney, NSW & \\
+    \textbf{Mar 2020 - Sept 2020} & \textbf{Chemist Warehouse Double Bay}, Sydney, NSW & \\
     & \textbf{Registered Pharmacist}\\[5pt]
 
-    \textbf{Dec 2018 - March 2020} & \textbf{Chemist Warehouse Randwick}, Sydney, NSW & \\
+    \textbf{Dec 2018 - Mar 2020} & \textbf{Chemist Warehouse Randwick}, Sydney, NSW & \\
     & \textbf{Graduate Intern Pharmacist}\\[5pt]
 
 \end{longtable}
@@ -184,7 +184,7 @@ patterns, ultimately informing safer, evidence-based healthcare practices. \\[10
 \href{https://scholar.google.com.au/citations?user=iCapTGoAAAAJ\&hl=en}{Google Scholar Profile}
 \end{center}
 
-## Peer-reviewed Journal Articles
+## A. Peer-reviewed Journal Articles
 
 ```{r}
 pubs <- get_cv_sheet('pubs') %>%
@@ -207,5 +207,40 @@ pubs <- get_cv_sheet('pubs') %>%
 make_ordered_list_filtered(pubs, "peer_reviewed")
 ```
 
+## B. Working Papers
+
+```{r}
+#| results: asis
+
+make_ordered_list_filtered(pubs, "working_paper")
+```
+
+## C. Working reports
+
+```{r}
+#| results: asis
+
+make_ordered_list_filtered(pubs, "working_report")
+```
 
 
+## D. Contributed presentations
+
+```{r}
+presentations <- get_cv_sheet('presentations') %>%
+  arrange(desc(date)) %>% 
+  mutate(
+    contributors = ifelse(is.na(contributors), '', paste0(', ', contributors)),,
+    title = paste0(enquote(title), contributors),
+    title = ifelse(is.na(series), title, paste(title, series, sep = '. ')),
+    date = paste0(format(as.Date(date), format = "%b %d, %Y"), '.'),
+    citation = paste(title, host, location, date, sep = '. ')
+  )
+
+```
+
+```{r}
+#| results: asis
+
+make_ordered_list_filtered(presentations, "contributed_presentation")
+```
