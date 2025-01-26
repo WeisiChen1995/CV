@@ -42,7 +42,7 @@ gscholar_page <- paste0("https://scholar.google.com/citations?user=", gscholar_i
 ```
 
 \par\centering{\LARGE{Weisi Chen}}
-\par\centering{Data Scientist}
+\par\centering{Health Data Scientist}
 \vspace{-5pt}
 \par\centering{Kensington, NSW 2033, Australia}
 \vspace{-5pt}
