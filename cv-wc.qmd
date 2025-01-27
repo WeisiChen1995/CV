@@ -112,8 +112,8 @@ always striving to deliver impactful results in every project I undertake.\\
     & \multicolumn{2}{p{0.8\textwidth}}{- Critically reviewing the literature on epidemiological and statistical methods to inform the development of analysis plans.} \\[5pt]
     & \multicolumn{2}{p{0.8\textwidth}}{- Drafting data management and data analysis plans, with input from the research team.} \\[5pt]
     & \multicolumn{2}{p{0.8\textwidth}}{- Implementing the data management plan to prepare analysis-ready datasets from linked datasets, including data cleaning and manipulation, using R and SAS software.} \\[5pt]
-    & \multicolumn{2}{p{0.8\textwidth}}{- Executing statistical analysis of linked data (e.g., logistic regression and inverse probability of treatment weighting), with academic supervision, using statistical packages R and SAS.} \\[5pt]
-    & \multicolumn{2}{p{0.8\textwidth}}{- Drafting scientific papers, protocols, and conference abstracts, with academic supervision.} \\[5pt]
+    & \multicolumn{2}{p{0.8\textwidth}}{- Executing statistical analysis of linked data (e.g., logistic regression and inverse probability of treatment weighting) relevant to the project, using statistical packages R and SAS.} \\[5pt]
+    & \multicolumn{2}{p{0.8\textwidth}}{- Drafting scientific papers, protocols, and conference abstracts.} \\[5pt]
     & \multicolumn{2}{p{0.8\textwidth}}{- Contributing to the project management of research projects to the highest scientific and ethical standards.} \\[5pt]
     & \multicolumn{2}{p{0.8\textwidth}}{- Drafting applications and contributing to ongoing reporting to the relevant ethics committees and data custodians for research projects.} \\[5pt]
     & \multicolumn{2}{p{0.8\textwidth}}{- Maintaining regular communication with project investigators and Aboriginal community organizations to ensure the program is delivered in a culturally appropriate manner.} \\[10pt]
@@ -126,7 +126,7 @@ always striving to deliver impactful results in every project I undertake.\\
     & \multicolumn{2}{p{0.8\textwidth}}{Investigating high-risk prescribing in Australian older adults using the linked PBS and Census data.} \\[15pt]
     & \multicolumn{2}{l}{\textbf{Key Responsibilities:}} \\[5pt]
     & \multicolumn{2}{p{0.8\textwidth}}{- Preparing analysis-ready datasets from linked datasets, including data cleaning and manipulation, using R software.} \\[5pt]
-    & \multicolumn{2}{p{0.8\textwidth}}{- Conducting data analysis and statistical modeling (e.g., logistic regression) relevant to the project, under the acedemic supervision.} \\
+    & \multicolumn{2}{p{0.8\textwidth}}{- Conducting data analysis and statistical modeling (e.g., logistic regression) relevant to the project.} \\
     & \multicolumn{2}{p{0.8\textwidth}}{- Contributing to publications and conference abstracts.} \\
     & \multicolumn{2}{p{0.8\textwidth}}{- Assisting with ongoing data management and documentations for reproducibility.} \\
  
@@ -135,7 +135,7 @@ always striving to deliver impactful results in every project I undertake.\\
 
 \vspace{-10pt}
 
-\raggedright \underline{\textbf{Clinical-focused Posistion}}
+\raggedright \underline{\textbf{Clinical-focused Positions}}
 
 \vspace{-10pt}
 \begin{longtable}{llp{14cm}}
