@@ -156,10 +156,10 @@ always striving to deliver impactful results in every project I undertake.\\
 \vspace{-10pt}
 \begin{longtable}{llp{14cm}}
 
-    \textbf{Mar 2021 - Sept 2024} & \textbf{Bondi Junction Pharmacy}, Sydney, NSW & \\
+    \textbf{Mar 2021 - Dec 2023} & \textbf{Bondi Junction Pharmacy}, Sydney, NSW & \\
     & \textbf{Pharmacist in charge (FTE 0.2)}\\[5pt]
 
-    \textbf{Mar 2021 - Sept 2024} & \textbf{Blooms the Chemsit Bondi Junction}, Sydney, NSW & \\
+    \textbf{Mar 2021 - Dec 2023} & \textbf{Blooms the Chemsit Bondi Junction}, Sydney, NSW & \\
     & \textbf{Pharmacist on duty (FTE 0.4)}\\[5pt]
 
     \textbf{Mar 2020 - Sept 2020} & \textbf{Chemist Warehouse Double Bay}, Sydney, NSW & \\
