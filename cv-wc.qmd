@@ -110,7 +110,7 @@ always striving to deliver impactful results in every project I undertake.\\
     & 1) ACCESS: Aboriginal Community Controlled Ear Health Support System: \\ 
     & \hspace{15pt} Developing, embedding, and evaluating best practice models of care. \\[5pt]
     & 2) Evaluation of Sustaining NSW Families, NSW Health. \\[5pt]
-    & 3) Building the NSW Child E-Cohort Project data platform linkage 2, linking:\\[5pt]
+    & 3) Assisted building the NSW Child E-Cohort Project data platform linkage 2, linking:\\[5pt]
     & \hspace{15pt} - Perinatal Data Collection \\
     & \hspace{15pt} - Birth Registrations \\
     & \hspace{15pt} - Hospital Separations \\
