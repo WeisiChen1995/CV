@@ -48,7 +48,7 @@ gscholar_page <- paste0("https://scholar.google.com/citations?user=", gscholar_i
 \vspace{-5pt}
 \par\centering{{\large\Telefon} 0452476995}
 \vspace{-5pt}
-\par\centering{{\large\Letter} weisi.s.chen@sydney.edu.au}
+\par\centering{{\large\Letter} weisi.0816@gmail.com}
 \vspace{-5pt}
 \par\centering{\href{https://github.com/WeisiChen1995}{github.com/WeisiChen1995}}
 
