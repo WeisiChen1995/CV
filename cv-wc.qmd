@@ -48,7 +48,7 @@ gscholar_page <- paste0("https://scholar.google.com/citations?user=", gscholar_i
 \vspace{-5pt}
 \par\centering{{\large\Telefon} 0452476995}
 \vspace{-5pt}
-\par\centering{{\large\Letter} weisi.s.chen@sydney.edu.au}
+\par\centering{{\large\Letter} weisi.0816@gmail.com}
 \vspace{-5pt}
 \par\centering{\href{https://github.com/WeisiChen1995}{github.com/WeisiChen1995}}
 
@@ -141,8 +141,8 @@ always striving to deliver impactful results in every project I undertake.\\
     & \multicolumn{2}{l}{In this role, I contributed to the Multi-Agency Data Integration Project (MADIP):} \\
     & \multicolumn{2}{p{0.8\textwidth}}{Investigating high-risk prescribing in Australian older adults using the linked PBS and Census data.} \\[15pt]
     & \multicolumn{2}{l}{\textbf{Key Responsibilities:}} \\[5pt]
-    & \multicolumn{2}{p{0.8\textwidth}}{- Preparing analysis-ready datasets from linked datasets, including data cleaning and manipulation, using R software.} \\[5pt]
-    & \multicolumn{2}{p{0.8\textwidth}}{- Conducting data analysis and statistical modeling (e.g., logistic regression) relevant to the project.} \\
+    & \multicolumn{2}{p{0.8\textwidth}}{- Preparing analysis-ready datasets from large linked datasets, including data cleaning and manipulation, using R software.} \\[5pt]
+    & \multicolumn{2}{p{0.8\textwidth}}{- Leading, developing and implementing data analysis and statistical modeling (e.g., logistic regression) relevant to the project.} \\
     & \multicolumn{2}{p{0.8\textwidth}}{- Contributing to publications and conference abstracts.} \\
     & \multicolumn{2}{p{0.8\textwidth}}{- Assisting with ongoing data management and documentations for reproducibility.} \\
  
@@ -172,18 +172,28 @@ always striving to deliver impactful results in every project I undertake.\\
 
 \vspace{-10pt}
 
+\textbf{Key Responsibilities:}
+\begin{itemize}
+    \item Dispensed medications using pharmacy dispensing software while reviewing patients’ medication histories/records to ensure appropriate drug selection, dosing, contraindications, side effects, and therapeutic outcomes.
+    \item Counseled patients on new prescription medications, OTC options, and medical devices.
+    \item Supervised and mentored pharmacy students and technicians.
+    \item Prepared medications in blister packs for elderly patients to optimize compliance with treatment.
+    \item Performed blood pressure tests, provided hypertension counseling, and referred patients to other healthcare professionals when necessary.
+    \item Collaborated with healthcare professionals to optimize patient health outcomes.
+    \item Reported adverse drug events (ADEs) and medication errors in compliance with regulatory policies and procedures.
+\end{itemize}
+
+
 
 # Research Interests
 
 \vspace{-10pt}
 \begin{longtable}{llp{15cm}}
-I am passionate about pharmaco-epidemiology, with a particular focus on high-risk medication prescribing\\
-using national, population-level linked data. \\[5pt]
+I am passionate about reserarch using national, population-level linked data. \\[5pt]
 
 I have extensive experience with data analysis, visualization, and statistical modeling tools. \\[5pt]
 
-My goal is to contribute to public health improvement by analyzing and understanding medication prescribing  \\ 
-patterns, ultimately informing safer, evidence-based healthcare practices. \\[10pt]
+My goal is to contribute to public health improvement by analyzing and understanding complex \\ and large health administrative datasets, ultimately informing safer, evidence-based healthcare practices. \\[10pt]
 
 \end{longtable}
 
@@ -231,7 +241,7 @@ make_ordered_list_filtered(pubs, "peer_reviewed")
 make_ordered_list_filtered(pubs, "working_paper")
 ```
 
-## C. Working Reports
+## C. Working Reportsv & Papers Under Review
 
 ```{r}
 #| results: asis
