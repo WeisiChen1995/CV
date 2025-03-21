@@ -189,11 +189,13 @@ always striving to deliver impactful results in every project I undertake.\\
 
 \vspace{-10pt}
 \begin{longtable}{llp{15cm}}
-I am passionate about reserarch using national, population-level linked data. \\[5pt]
+I am passionate about pharmaco-epidemiology, with a particular focus on high-risk medication prescribing\\
+using national, population-level linked data. \\[5pt]
 
 I have extensive experience with data analysis, visualization, and statistical modeling tools. \\[5pt]
 
-My goal is to contribute to public health improvement by analyzing and understanding complex \\ and large health administrative datasets, ultimately informing safer, evidence-based healthcare practices. \\[10pt]
+My goal is to contribute to public health improvement by analyzing and understanding medication prescribing  \\ 
+patterns, ultimately informing safer, evidence-based healthcare practices. \\[10pt]
 
 \end{longtable}
 
