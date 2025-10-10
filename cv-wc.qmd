@@ -1,6 +1,10 @@
 ---
 format:
   pdf:
+    include-in-header: 
+      - text: |
+          \usepackage{tabularx}
+      - preamble.tex
     toc: false
     number-sections: false
     colorlinks: true
@@ -11,14 +15,13 @@ format:
     geometry:
       - margin=1in
       - heightrounded
-    include-in-header:
-      - preamble.tex
 execute:
   warning: false
   echo: false
   message: false
   eval: true
 ---
+
 
 ```{r}
 #| name: setup
@@ -50,156 +53,142 @@ gscholar_page <- paste0("https://scholar.google.com/citations?user=", gscholar_i
 \vspace{-5pt}
 \par\centering{{\large\Letter} weisi.0816@gmail.com}
 \vspace{-5pt}
-\par\centering{\href{https://github.com/WeisiChen1995}{github.com/WeisiChen1995}}
+\par\centering{\href{https://weisichen.org}{weisichen.org}}
 
 \vspace{-10pt}
 
 
-# Profile
+# Brief Biography
 
 \vspace{-10pt}
 \begin{longtable}{llp{15cm}}
-I am a highly disciplined and hard-working professional with a strong passion for\\ 
-technology, programming, data analysis, data visualization, and statistical modeling.\\ 
-Leveraging a unique blend of training in pharmacy and health data science,\\
-I specialize in deriving actionable insights from complex health datasets.\\[10pt]
+I am a health data scientist with a background in pharmacy, bringing a unique combination of \\
+domain knowledge and analytical expertise to complex health data projects. \\[8pt]
 
-I am proficient in statistical software such as R and SAS, and have extensive experience\\
-using these tools for data analysis, visualization, and statistical modelling. \\
+I am highly disciplined, detail-oriented, and driven by a strong passion for \\
+reproducible research, statistical analysis, and data visualization. \\
+I am proficient in statistical software such as R and SAS, with extensive experience \\
+in data cleaning, analysis, visualization, and statistical modelling. \\[8pt]
+
+Over the years, I have worked extensively with large, linked health administrative datasets, \\
+gaining expertise in platforms such as SURE, PLIDA, and NHDH. My experience spans nationwide datasets, \\
+including hospital admissions, emergency department records, Pharmaceutical Benefits Scheme (PBS) \\
+and Medicare Benefits Schedule (MBS) claims, and death registrations. \\
+In addition, I have worked with NSW state-level data collections, covering perinatal records, \\
+birth registrations, child protection reports, public housing, NAPLAN, school enrollment, \\
+the Australian Early Development Census, out-of-home care, and justice system data. \\[8pt]
+
 I am deeply committed to continuous learning and professional development, \\
-always eager to explore new packages, techniques, or skills that can enhance my ability\\
+always eager to explore new packages, techniques, or skills that enhance my ability \\
 to analyze data effectively and deliver meaningful insights.\\[10pt]
-
-My current interest lies in population-level analysis using linked health data \\
-to drive impactful health decisions and inform evidence-based strategies.\\
-I thrive on tackling challenging problems with analytical precision and creativity,\\
-always striving to deliver impactful results in every project I undertake.\\
-
 \end{longtable}
 
 \vspace{-10pt}
 
 
-# Education 
+\section*{Professional Interests}
+Reproducible Research $\cdot$ Data Visualization $\cdot$ Statistical Modeling
+
+\section*{Skills}
+Big Data Research $\cdot$ R $\cdot$ SAS
 
 \vspace{-10pt}
+
+# Education
+
 \begin{longtable}{lll}
+\textbf{Sept 2021 -- Mar 2023} & \textbf{The University of New South Wales} & \textbf{M.S. Health Data Science} \\
+& & WAM: 88\% (Dissertation: 91\%) \\
+\multicolumn{3}{l}{\textit{Dissertation: Changes in atherosclerotic cardiovascular disease risk over time among people living with HIV}} \\[10pt]
 
-    \textbf{Sept 2021 - March 2023} & \textbf{The University of New South Wales} & \textbf{M.S. Health Data Science} \\
-    & & WAM: 88\% (Dissertation: 91\%) \\
-    \multicolumn{3}{l}{\textit{Dissertation: Changes in atherosclerotic cardiovascular disease risk over time among people living with HIV}} \\[10pt]
-
-    \textbf{March 2015 - March 2019} & \textbf{The University of Sydney} & \textbf{B.S. Pharmacy} \\
-
-
+\textbf{Mar 2015 -- Mar 2019} & \textbf{The University of Sydney} & \textbf{B.S. Pharmacy} \\
 \end{longtable}
-
-\vspace{-10pt}
-
 
 # Employment History
 
-\raggedright \underline{\textbf{Research-focused Positions}}
+\subsection*{Research-focused Positions}
 
-\vspace{-10pt}
-\begin{longtable}{llp{14cm}}
+\begin{longtable}{@{}p{3.5cm}p{12cm}@{}}
+\textbf{July 2023 -- Present} & 
+\textbf{Data Scientist, Sydney Pharmacy School, The University of Sydney, Sydney, NSW}\\[15pt]
+{} & \underline{Key Project:} \\[5pt]
+& • Mapping multimorbidity disease clusters in older Australians using nationwide linked health administrative datasets.\\[3pt]
+& • Built a nationwide dementia cohort linking nationwide hospital admissions, ED presentations, PBS, aged care, and death registration data.\\[15pt]
+{} & \underline{Key Responsibilities:} \\[5pt]
+& • Critically reviewed literature and drafted analysis plans. \\[3pt]
+& • Prepared analysis-ready datasets using SAS from nationwide large linked health administrative datasets, including hospital admissions, ED presentations, PBS, aged care, and death registration data. \\[3pt]
+& • Make data visualizations to guide analysis and perform network clustering (using the igraph package in R) for clustering analysis.\\[3pt]
+& • Drafted manuscript, abstract, and prepared slides for conference presentation.\\[3pt]
+& • Maintained regular communication with project investigators, and implemented feedback in a timely manner. \\[20pt]
 
-    \textbf{July 2023 - Present} & \textbf{The University of New South Wales}, Sydney, NSW & \\
-    & \textbf{Data Scientist}, School of Population Health \\[5pt]
-    & \multicolumn{2}{l}{I contributed to three projects in this role:} \\
-    & 1) ACCESS: Aboriginal Community Controlled Ear Health Support System: \\ 
-    & \hspace{15pt} Developing, embedding, and evaluating best practice models of care. \\[5pt]
-    & 2) Evaluation of Sustaining NSW Families, NSW Health. \\[5pt]
-    & 3) Assisted building the NSW Child E-Cohort Project data platform linkage 2, linking:\\[5pt]
-    & \hspace{15pt} - Perinatal Data Collection \\
-    & \hspace{15pt} - Birth Registrations \\
-    & \hspace{15pt} - Hospital Separations \\
-    & \hspace{15pt} - Emergency Department Presentations \\
-    & \hspace{15pt} - Australian Early Development Census \\
-    & \hspace{15pt} - Public School Enrolments \\
-    & \hspace{15pt} - NAPLAN \\
-    & \hspace{15pt} - Child Protection Reports \\
-    & \hspace{15pt} - Out-of-Home Care Placements \\
-    & \hspace{15pt} - Justice Data (youth and adult corrections) \\
-    & \hspace{15pt} - Public Housing Data \\
-    & \hspace{15pt} - Death Registrations/Cause of Death \\[10pt]
-    
-    & \multicolumn{2}{l}{\textbf{My role included:}} \\[5pt]
-    & \multicolumn{2}{p{0.8\textwidth}}{- Critically reviewing the literature on epidemiological and statistical methods to inform the development of analysis plans.} \\[5pt]
-    & \multicolumn{2}{p{0.8\textwidth}}{- Drafting data management and data analysis plans, with input from the research team.} \\[5pt]
-    & \multicolumn{2}{p{0.8\textwidth}}{- Implementing the data management plan to prepare analysis-ready datasets from linked datasets, including data cleaning and manipulation, using R and SAS software.} \\[5pt]
-    & \multicolumn{2}{p{0.8\textwidth}}{- Executing statistical analysis of linked data (e.g., logistic regression and inverse probability of treatment weighting) relevant to the project, using statistical packages R and SAS.} \\[5pt]
-    & \multicolumn{2}{p{0.8\textwidth}}{- Drafting scientific papers, protocols, and conference abstracts.} \\[5pt]
-    & \multicolumn{2}{p{0.8\textwidth}}{- Contributing to the project management of research projects to the highest scientific and ethical standards.} \\[5pt]
-    & \multicolumn{2}{p{0.8\textwidth}}{- Drafting applications and contributing to ongoing reporting to the relevant ethics committees and data custodians for research projects.} \\[5pt]
-    & \multicolumn{2}{p{0.8\textwidth}}{- Maintaining regular communication with project investigators and Aboriginal community organizations to ensure the program is delivered in a culturally appropriate manner.} \\[10pt]
-    
-    \\[10pt] % Add more vertical space before the next section
-    
-    \textbf{Feb 2023 - Dec 2023} & \textbf{The University of Sydney}, Sydney, NSW & \\
-    & \textbf{Data Scientist/Research Officer}, School of Pharmacy, (FTE 0.4) \\[5pt]
-    & \multicolumn{2}{l}{In this role, I contributed to the Multi-Agency Data Integration Project (MADIP):} \\
-    & \multicolumn{2}{p{0.8\textwidth}}{Investigating high-risk prescribing in Australian older adults using the linked PBS and Census data.} \\[15pt]
-    & \multicolumn{2}{l}{\textbf{Key Responsibilities:}} \\[5pt]
-    & \multicolumn{2}{p{0.8\textwidth}}{- Preparing analysis-ready datasets from large linked datasets, including data cleaning and manipulation, using R software.} \\[5pt]
-    & \multicolumn{2}{p{0.8\textwidth}}{- Leading, developing and implementing data analysis and statistical modeling (e.g., logistic regression) relevant to the project.} \\
-    & \multicolumn{2}{p{0.8\textwidth}}{- Contributing to publications and conference abstracts.} \\
-    & \multicolumn{2}{p{0.8\textwidth}}{- Assisting with ongoing data management and documentations for reproducibility.} \\
- 
+\textbf{July 2023 -- Mar 2025} & 
+\textbf{Data Scientist, School of Population Health, The University of New South Wales, Sydney, NSW}\\[15pt]
+{} & \underline{Key Project:} \\[5pt]
+& 1) Aboriginal Community Controlled Ear Health Support System (ACCESS). \\[3pt]
+& 2) Evaluation of Sustaining NSW Families (NSW Health). \\[3pt]
+& 3) Assisted in building the NSW Child E-Cohort Project Data Platform (Linkage 2), linking the below datasets: \\[5pt]
+& \hspace{15pt} • Perinatal Data Collection \\[3pt]
+& \hspace{15pt} • Birth Registrations \\[3pt]
+& \hspace{15pt} • Hospital Separations \\[3pt]
+& \hspace{15pt} • Emergency Department Presentations \\[3pt]
+& \hspace{15pt} • Australian Early Development Census \\[3pt]
+& \hspace{15pt} • Public School Enrolments \\[3pt]
+& \hspace{15pt} • NAPLAN \\[3pt]
+& \hspace{15pt} • Child Protection Reports \\[3pt]
+& \hspace{15pt} • Out-of-Home Care Placements \\[3pt]
+& \hspace{15pt} • Justice Data (Youth and Adult Corrections) \\[3pt]
+& \hspace{15pt} • Public Housing Data \\[3pt]
+& \hspace{15pt} • Death Registrations / Cause of Death \\[3pt]
+{} & \underline{Key Responsibilities:} \\[5pt]
+& • Critically reviewing the literature on epidemiological and statistical methods to inform the development of analysis plans. \\[3pt]
+& • Drafting data management and data analysis plans, with input from the research team. \\[3pt]
+& • Implementing the data management plan to prepare analysis-ready datasets from linked datasets, including data cleaning and manipulation, using SAS. \\[3pt]
+& • Performing data visualization and executing logistic regression and inverse probability of treatment weighting (IPTW), using R. \\[3pt]
+& • Drafting scientific papers, protocols, and conference abstracts. \\[3pt]
+& • Contributing to the project management of research projects to the highest scientific and ethical standards. \\[3pt]
+& • Drafting applications and contributing to ongoing reporting to the relevant ethics committees and data custodians for research projects. \\[3pt]
+& • Maintaining regular communication with project investigators and Aboriginal community organizations to ensure the program is delivered in a culturally appropriate manner. \\[40pt]
 
+\textbf{Feb 2023 -- Dec 2023} & 
+\textbf{Data Scientist / Research Officer, School of Pharmacy, The University of Sydney, Sydney, NSW (FTE 0.4)} \\[15pt]
+{} & \underline{Key Project:} \\[5pt]
+& • Multi-Agency Data Integration Project (MADIP): \\ [3pt]
+& • Investigated high-risk prescribing in older adults using linked PBS and Census data. \\ [20pt]
+{} & \underline{Key Responsibilities:} \\[5pt]
+& • Critically reviewed exsiting literature and drafted research protocol and data management plan. \\
+& • Prepared analysis-ready datasets using SAS. \\
+& • Conducted logistic regression and developed models. \\
+& • Contributed to publications, abstracts, and reproducible documentation. \\[10pt]
 \end{longtable}
 
-\vspace{-10pt}
+\subsection*{Clinical-focused Positions}
 
-\raggedright \underline{\textbf{Clinical-focused Positions}}
-
-\vspace{-10pt}
-\begin{longtable}{llp{14cm}}
-
-    \textbf{Mar 2021 - Dec 2023} & \textbf{Bondi Junction Pharmacy}, Sydney, NSW & \\
-    & \textbf{Pharmacist in charge (FTE 0.2)}\\[5pt]
-
-    \textbf{Mar 2021 - Dec 2023} & \textbf{Blooms the Chemsit Bondi Junction}, Sydney, NSW & \\
-    & \textbf{Pharmacist on duty (FTE 0.4)}\\[5pt]
-
-    \textbf{Mar 2020 - Sept 2020} & \textbf{Chemist Warehouse Double Bay}, Sydney, NSW & \\
-    & \textbf{Registered Pharmacist}\\[5pt]
-
-    \textbf{Dec 2018 - Mar 2020} & \textbf{Chemist Warehouse Randwick}, Sydney, NSW & \\
-    & \textbf{Graduate Intern Pharmacist}\\[5pt]
-
+\begin{longtable}{@{}p{3.5cm}p{12cm}@{}}
+\textbf{Mar 2021 -- Dec 2023} & 
+\textbf{Pharmacist in Charge (FTE 0.2), Bondi Junction Pharmacy, Sydney, NSW} \\[3pt]
+\textbf{Mar 2021 -- Dec 2023} & 
+\textbf{Pharmacist on Duty (FTE 0.4), Blooms the Chemist, Bondi Junction, Sydney, NSW} \\[3pt]
+\textbf{Mar 2020 -- Sept 2020} & 
+\textbf{Registered Pharmacist, Chemist Warehouse, Double Bay, Sydney, NSW} \\[3pt]
+\textbf{Dec 2018 -- Mar 2020} & 
+\textbf{Graduate Intern Pharmacist, Chemist Warehouse, Randwick, Sydney, NSW} \\[3pt]
 \end{longtable}
-
-\vspace{-10pt}
 
 \textbf{Key Responsibilities:}
 \begin{itemize}
-    \item Dispensed medications using pharmacy dispensing software while reviewing patients’ medication histories/records to ensure appropriate drug selection, dosing, contraindications, side effects, and therapeutic outcomes.
-    \item Counseled patients on new prescription medications, OTC options, and medical devices.
+    \item Dispensed medications using pharmacy software while reviewing histories for safe and effective drug use.
+    \item Counseled patients on prescriptions, OTC medications, and medical devices.
     \item Supervised and mentored pharmacy students and technicians.
-    \item Prepared medications in blister packs for elderly patients to optimize compliance with treatment.
-    \item Performed blood pressure tests, provided hypertension counseling, and referred patients to other healthcare professionals when necessary.
-    \item Collaborated with healthcare professionals to optimize patient health outcomes.
-    \item Reported adverse drug events (ADEs) and medication errors in compliance with regulatory policies and procedures.
+    \item Prepared blister packs for elderly patients to optimize adherence.
+    \item Performed blood pressure tests, provided hypertension counseling, and referred patients as needed.
+    \item Collaborated with healthcare professionals to optimize patient outcomes.
+    \item Reported adverse drug events (ADEs) and medication errors per regulatory guidelines.
 \end{itemize}
 
+\section*{Research Interests}
 
+I am interested in pharmacoepidemiology and expanding my knowledge of statistical and analytical methods using large, linked health administrative datasets.
 
-# Research Interests
-
-\vspace{-10pt}
-\begin{longtable}{llp{15cm}}
-I am passionate about pharmaco-epidemiology, with a particular focus on high-risk medication prescribing\\
-using national, population-level linked data. \\[5pt]
-
-I have extensive experience with data analysis, visualization, and statistical modeling tools. \\[5pt]
-
-My goal is to contribute to public health improvement by analyzing and understanding medication prescribing  \\ 
-patterns, ultimately informing safer, evidence-based healthcare practices. \\[10pt]
-
-\end{longtable}
-
-\vspace{-10pt}
 
 
 # Publications
@@ -243,7 +232,7 @@ make_ordered_list_filtered(pubs, "peer_reviewed")
 make_ordered_list_filtered(pubs, "working_paper")
 ```
 
-## C. Working Reportsv & Papers Under Review
+## C. Working Reports
 
 ```{r}
 #| results: asis
