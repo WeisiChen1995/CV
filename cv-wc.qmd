@@ -45,7 +45,7 @@ gscholar_page <- paste0("https://scholar.google.com/citations?user=", gscholar_i
 ```
 
 \par\centering{\LARGE{Weisi Chen}}
-\par\centering{Health Data Scientist}
+\par\centering{Data Analyst}
 \vspace{-5pt}
 \par\centering{Kensington, NSW 2033}
 \vspace{-5pt}
@@ -62,7 +62,7 @@ gscholar_page <- paste0("https://scholar.google.com/citations?user=", gscholar_i
 
 \vspace{-10pt}
 \begin{longtable}{llp{15cm}}
-I am a health data scientist with a background in pharmacy, bringing a unique combination of \\
+I am a data analyst with a background in pharmacy, bringing a unique combination of \\
 domain knowledge and analytical expertise to complex health data projects. \\[8pt]
 
 I am highly disciplined, detail-oriented, and driven by a strong passion for \\
@@ -73,10 +73,7 @@ in data cleaning, analysis, visualization, and statistical modelling. \\[8pt]
 Over the years, I have worked extensively with large, linked health administrative datasets, \\
 gaining expertise in platforms such as SURE, PLIDA, and NHDH. My experience spans nationwide datasets, \\
 including hospital admissions, emergency department records, Pharmaceutical Benefits Scheme (PBS) \\
-and Medicare Benefits Schedule (MBS) claims, and death registrations. \\
-In addition, I have worked with NSW state-level data collections, covering perinatal records, \\
-birth registrations, child protection reports, public housing, NAPLAN, school enrollment, \\
-the Australian Early Development Census, out-of-home care, and justice system data. \\[8pt]
+and Medicare Benefits Schedule (MBS) claims, and death registrations. \\[8pt]
 
 I am deeply committed to continuous learning and professional development, \\
 always eager to explore new packages, techniques, or skills that enhance my ability \\
@@ -90,7 +87,7 @@ to analyze data effectively and deliver meaningful insights.\\[10pt]
 Reproducible Research $\cdot$ Data Visualization $\cdot$ Statistical Modeling
 
 \section*{Skills}
-Big Data Research $\cdot$ R $\cdot$ SAS
+Big Data Management $\cdot$ R $\cdot$ SAS
 
 \vspace{-10pt}
 
