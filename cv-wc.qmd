@@ -57,37 +57,21 @@ gscholar_page <- paste0("https://scholar.google.com/citations?user=", gscholar_i
 
 \vspace{-10pt}
 
+\section*{Brief Biography}
 
-# Brief Biography
+\begin{flushleft}
+I am a data analyst with a background in pharmacy, bringing a unique combination of domain knowledge and analytical expertise to complex health data projects.
 
-\vspace{-10pt}
-\begin{longtable}{llp{15cm}}
-I am a data analyst with a background in pharmacy, bringing a unique combination of \\
-domain knowledge and analytical expertise to complex health data projects. \\[8pt]
+I am highly disciplined, detail-oriented, and driven by a strong passion for reproducible research, statistical analysis, and data visualization. I am proficient in statistical software such as R and SAS, with extensive experience in data cleaning, analysis, visualization, and statistical modelling.
 
-I am highly disciplined, detail-oriented, and driven by a strong passion for \\
-reproducible research, statistical analysis, and data visualization. \\
-I am proficient in statistical software such as R and SAS, with extensive experience \\
-in data cleaning, analysis, visualization, and statistical modelling. \\[8pt]
+Over the years, I have worked extensively with large, linked health administrative datasets, gaining expertise in linked data platforms such as SURE, PLIDA, and NHDH. My experience spans nationwide datasets, including hospital admissions, emergency department records, Pharmaceutical Benefits Scheme (PBS) and Medicare Benefits Schedule (MBS) claims, and death registrations.
 
-Over the years, I have worked extensively with large, linked health administrative datasets, \\
-gaining expertise in platforms such as SURE, PLIDA, and NHDH. My experience spans nationwide datasets, \\
-including hospital admissions, emergency department records, Pharmaceutical Benefits Scheme (PBS) \\
-and Medicare Benefits Schedule (MBS) claims, and death registrations. \\[8pt]
+I am deeply committed to continuous learning and professional development, always eager to explore new packages, techniques, or skills that enhance my ability to analyze data effectively and deliver meaningful insights.
+\end{flushleft}
 
-I am deeply committed to continuous learning and professional development, \\
-always eager to explore new packages, techniques, or skills that enhance my ability \\
-to analyze data effectively and deliver meaningful insights.\\[10pt]
-\end{longtable}
-
-\vspace{-10pt}
-
-
-\section*{Professional Interests}
-Reproducible Research $\cdot$ Data Visualization $\cdot$ Statistical Modeling
 
 \section*{Skills}
-Big Data Management $\cdot$ R $\cdot$ SAS
+Big Data Management $\cdot$ R $\cdot$ SAS $\cdot$ Reproducible Research $\cdot$ Data Visualization $\cdot$ Statistical Modeling
 
 \vspace{-10pt}
 
@@ -101,92 +85,99 @@ Big Data Management $\cdot$ R $\cdot$ SAS
 \textbf{Mar 2015 -- Mar 2019} & \textbf{The University of Sydney} & \textbf{B.S. Pharmacy} \\
 \end{longtable}
 
-# Employment History
+
+\setlength{\parskip}{1.2em}
+\setlength{\parindent}{0pt}
+\renewcommand{\arraystretch}{1.3}
+
+
+\section*{Employment History}
+
+\setlength{\parskip}{1.2em}  
+\setlength{\parindent}{0pt}  
+\renewcommand{\arraystretch}{1.3} 
+
 
 \subsection*{Research-focused Positions}
 
 \begin{longtable}{@{}p{3.5cm}p{12cm}@{}}
-\textbf{July 2023 -- Present} & 
-\textbf{Data Scientist, Sydney Pharmacy School, The University of Sydney, Sydney, NSW}\\[15pt]
-{} & \underline{Key Project:} \\[5pt]
-& • Mapping multimorbidity disease clusters in older Australians using nationwide linked health administrative datasets.\\[3pt]
-& • Built a nationwide dementia cohort linking nationwide hospital admissions, ED presentations, PBS, aged care, and death registration data.\\[15pt]
-{} & \underline{Key Responsibilities:} \\[5pt]
-& • Critically reviewed literature and drafted analysis plans. \\[3pt]
-& • Prepared analysis-ready datasets using SAS from nationwide large linked health administrative datasets, including hospital admissions, ED presentations, PBS, aged care, and death registration data. \\[3pt]
-& • Make data visualizations to guide analysis and perform network clustering (using the igraph package in R) for clustering analysis.\\[3pt]
-& • Drafted manuscript, abstract, and prepared slides for conference presentation.\\[3pt]
-& • Maintained regular communication with project investigators, and implemented feedback in a timely manner. \\[20pt]
 
-\textbf{July 2023 -- Mar 2025} & 
-\textbf{Data Scientist, School of Population Health, The University of New South Wales, Sydney, NSW}\\[15pt]
-{} & \underline{Key Project:} \\[5pt]
-& 1) Aboriginal Community Controlled Ear Health Support System (ACCESS). \\[3pt]
-& 2) Evaluation of Sustaining NSW Families (NSW Health). \\[3pt]
-& 3) Assisted in building the NSW Child E-Cohort Project Data Platform (Linkage 2), linking the below datasets: \\[5pt]
-& \hspace{15pt} • Perinatal Data Collection \\[3pt]
-& \hspace{15pt} • Birth Registrations \\[3pt]
-& \hspace{15pt} • Hospital Separations \\[3pt]
-& \hspace{15pt} • Emergency Department Presentations \\[3pt]
-& \hspace{15pt} • Australian Early Development Census \\[3pt]
-& \hspace{15pt} • Public School Enrolments \\[3pt]
-& \hspace{15pt} • NAPLAN \\[3pt]
-& \hspace{15pt} • Child Protection Reports \\[3pt]
-& \hspace{15pt} • Out-of-Home Care Placements \\[3pt]
-& \hspace{15pt} • Justice Data (Youth and Adult Corrections) \\[3pt]
-& \hspace{15pt} • Public Housing Data \\[3pt]
-& \hspace{15pt} • Death Registrations / Cause of Death \\[3pt]
-{} & \underline{Key Responsibilities:} \\[5pt]
-& • Critically reviewing the literature on epidemiological and statistical methods to inform the development of analysis plans. \\[3pt]
-& • Drafting data management and data analysis plans, with input from the research team. \\[3pt]
-& • Implementing the data management plan to prepare analysis-ready datasets from linked datasets, including data cleaning and manipulation, using SAS. \\[3pt]
-& • Performing data visualization and executing logistic regression and inverse probability of treatment weighting (IPTW), using R. \\[3pt]
-& • Drafting scientific papers, protocols, and conference abstracts. \\[3pt]
-& • Contributing to the project management of research projects to the highest scientific and ethical standards. \\[3pt]
-& • Drafting applications and contributing to ongoing reporting to the relevant ethics committees and data custodians for research projects. \\[3pt]
-& • Maintaining regular communication with project investigators and Aboriginal community organizations to ensure the program is delivered in a culturally appropriate manner. \\[40pt]
+\textbf{April 2025 -- Present} &
+\textbf{Data Scientist / Research Officer, Sydney Pharmacy School, The University of Sydney} \\
 
-\textbf{Feb 2023 -- Dec 2023} & 
-\textbf{Data Scientist / Research Officer, School of Pharmacy, The University of Sydney, Sydney, NSW (FTE 0.4)} \\[15pt]
-{} & \underline{Key Project:} \\[5pt]
-& • Multi-Agency Data Integration Project (MADIP): \\ [3pt]
-& • Investigated high-risk prescribing in older adults using linked PBS and Census data. \\ [20pt]
-{} & \underline{Key Responsibilities:} \\[5pt]
-& • Critically reviewed exsiting literature and drafted research protocol and data management plan. \\
-& • Prepared analysis-ready datasets using SAS. \\
-& • Conducted logistic regression and developed models. \\
-& • Contributed to publications, abstracts, and reproducible documentation. \\[10pt]
+{} & \textbf{Key Project:} \\
+& • Nationwide study mapping multimorbidity disease clusters in older Australians using large-scale linked health administrative datasets — \textbf{Lead Analyst}. \\
+& • Developed a comprehensive dementia cohort integrating hospital admissions, ED presentations, PBS, MBS, aged care, and death registrations. \\[1.5em]
+
+{} & \textbf{Key Responsibilities:} \\
+& • Conducted systematic literature reviews and drafted detailed analysis plans. \\
+& • Prepared analysis-ready datasets in SAS from large linked administrative data sources (National hospital admission, ED presentations, PBS, MBS, aged care and death registrations). \\
+& • Designed advanced visualizations and network clustering analyses using R (\textit{igraph} package). \\
+& • \textbf{First author} on a manuscript; drafted abstracts and conference materials. \\
+& • Collaborated with investigators and research partners to ensure timely project delivery. \\[2em]
+
+\textbf{July 2023 -- Mar 2025} &
+\textbf{Data Scientist, School of Population Health, The University of New South Wales} \\[6pt]
+
+{} & \textbf{Key Projects:} \\
+& 1. \textit{Aboriginal Community Controlled Ear Health Support System (ACCESS)} — \textbf{Lead Analyst}. \\
+& 2. \textit{Evaluation of Sustaining NSW Families (NSW Health)} — \textbf{Lead Analyst}. \\
+& 3. \textit{NSW Child E-Cohort Project} — Assisted in building a large-scale linked data platform integrating multiple datasets: \\
+& \hspace{1em} • Perinatal Data Collection, Birth Registrations, Hospital Separations, ED Presentations. \\
+& \hspace{1em} • Australian Early Development Census, Public School Enrolments, NAPLAN. \\
+& \hspace{1em} • Child Protection Reports, Out-of-Home Care Placements, Justice (Youth \& Adult Corrections), Public Housing, Death Registrations. \\[3pt]
+
+{} & \textbf{Key Responsibilities:} \\
+& • Critically reviewing the literature on epidemiological and statistical methods to
+inform the development of analysis plans. \\
+& • Drafted data management and analysis plans with research teams. \\
+& • Implementing the data management plan to prepare analysis-ready datasets
+from linked datasets, including data cleaning and manipulation, using SAS. \\
+& • Executing statistical analysis (e.g., logistic regression and inverse probability of treatment weighting), using R. \\
+& • Drafting scientific papers, protocols, and conference abstracts.  \\
+& • Contributing to the project management of research projects to the highest scientific and ethical standards. \\
+& • Drafting applications and contributing to ongoing reporting to the relevant ethics committees and data custodians for research projects.\\
+& • Maintaining regular communication with project investigators and Aboriginal community organizations to ensure the program is delivered in a culturally appropriate manner.\\[2em]
+
+\textbf{Feb 2023 -- Dec 2023} &
+\textbf{Data Scientist / Research Officer, School of Pharmacy, The University of Sydney (FTE 0.4)} \\[6pt]
+
+{} & \textbf{Key Project:} \\
+& • Multi-Agency Data Integration Project (MADIP): Investigated high-risk prescribing patterns in older adults with dementia using linked PBS and Census data. — \textbf{Lead Analyst}. \\[3pt]
+
+{} & \textbf{Key Responsibilities:} \\
+& • Conducted literature reviews and developed research protocols and data management plans. \\
+& • Prepared and cleaned analysis datasets using SAS. \\
+& • Performed analyses (e.g. logistic regression) in R. \\
+& • Contributed to publications, abstracts, and reproducible research documentation. \\
+& • Collaborated with investigators and research partners to ensure timely project delivery. \\[2em]
+
 \end{longtable}
 
 \subsection*{Clinical-focused Positions}
 
 \begin{longtable}{@{}p{3.5cm}p{12cm}@{}}
-\textbf{Mar 2021 -- Dec 2023} & 
-\textbf{Pharmacist in Charge (FTE 0.2), Bondi Junction Pharmacy, Sydney, NSW} \\[3pt]
-\textbf{Mar 2021 -- Dec 2023} & 
-\textbf{Pharmacist on Duty (FTE 0.4), Blooms the Chemist, Bondi Junction, Sydney, NSW} \\[3pt]
-\textbf{Mar 2020 -- Sept 2020} & 
-\textbf{Registered Pharmacist, Chemist Warehouse, Double Bay, Sydney, NSW} \\[3pt]
-\textbf{Dec 2018 -- Mar 2020} & 
-\textbf{Graduate Intern Pharmacist, Chemist Warehouse, Randwick, Sydney, NSW} \\[3pt]
+\textbf{Mar 2021 -- Dec 2023} & \textbf{Pharmacist in Charge (FTE 0.2), Bondi Junction Pharmacy, Sydney, NSW} \\
+\textbf{Mar 2021 -- Dec 2023} & \textbf{Pharmacist on Duty (FTE 0.4), Blooms the Chemist, Bondi Junction, Sydney, NSW} \\
+\textbf{Mar 2020 -- Sept 2020} & \textbf{Registered Pharmacist, Chemist Warehouse, Double Bay, Sydney, NSW} \\
+\textbf{Dec 2018 -- Mar 2020} & \textbf{Graduate Intern Pharmacist, Chemist Warehouse, Randwick, Sydney, NSW} \\
 \end{longtable}
 
 \textbf{Key Responsibilities:}
 \begin{itemize}
-    \item Dispensed medications using pharmacy software while reviewing histories for safe and effective drug use.
+    \item Dispensed medications safely using pharmacy software; reviewed patient histories.
     \item Counseled patients on prescriptions, OTC medications, and medical devices.
     \item Supervised and mentored pharmacy students and technicians.
     \item Prepared blister packs for elderly patients to optimize adherence.
-    \item Performed blood pressure tests, provided hypertension counseling, and referred patients as needed.
+    \item Performed blood pressure tests, provided counseling, and referred patients as needed.
     \item Collaborated with healthcare professionals to optimize patient outcomes.
-    \item Reported adverse drug events (ADEs) and medication errors per regulatory guidelines.
+    \item Reported adverse drug events (ADEs) and medication errors per regulations.
 \end{itemize}
+
 
 \section*{Research Interests}
 
-I am interested in pharmacoepidemiology and expanding my knowledge of statistical and analytical methods using large, linked health administrative datasets.
-
-
+I am interested in ageing research and pharmacoepidemiology, and in advancing my expertise in statistical and analytical methods using large, linked health administrative datasets.
 
 # Publications
 
