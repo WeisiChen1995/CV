@@ -62,7 +62,7 @@ gscholar_page <- paste0("https://scholar.google.com/citations?user=", gscholar_i
 \begin{flushleft}
 I am a data analyst with a background in pharmacy, bringing a unique combination of domain knowledge and analytical expertise to complex health data projects.
 
-I am highly disciplined, detail-oriented, and driven by a strong passion for reproducible research, statistical analysis, and data visualization. I am proficient in statistical software such as R and SAS, with extensive experience in data cleaning, analysis, visualization, and statistical modelling.
+I am highly disciplined, detail-oriented, and driven by a strong passion for reproducible research, statistical analysis, and data visualization. I am proficient in statistical software such as R, SAS and Python, with extensive experience in data cleaning, analysis, visualization, and statistical modelling.
 
 Over the years, I have worked extensively with large, linked health administrative datasets, gaining expertise in linked data platforms such as SURE, PLIDA, and NHDH. My experience spans nationwide datasets, including hospital admissions, emergency department records, Pharmaceutical Benefits Scheme (PBS) and Medicare Benefits Schedule (MBS) claims, and death registrations.
 
