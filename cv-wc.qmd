@@ -46,12 +46,12 @@ gscholar_id <- 'DY2D56IAAAAJ'
 gscholar_page <- paste0("https://scholar.google.com/citations?user=", gscholar_id)
 ```
 \setlength{\parskip}{0.2em} 
-\setlength{\parindent}{0pt} 
+\setlength{\parindent}{1pt} 
 
 \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} l r}
 \begin{tabular}{l}
 \textbf{\Huge Weisi Chen} \\[6pt]  % adjust spacing as desired
-\textbf{Health Data Analyst} \\[50pt] 
+\textbf{Health Data Analyst/Research Officer} \\[50pt] 
 \end{tabular} &
 \begin{tabular}{r}
 Kensington, NSW 2033 \\
@@ -65,7 +65,7 @@ Kensington, NSW 2033 \\
 
 \section*{Brief Biography}\vspace{-8pt}
 \noindent
-I am a data analyst specializing in the analysis of large and complex datasets, with expertise in data mining, visualization, and statistical modeling. I have worked as a data analyst contributing to research across the fields of biostatistics, clinical epidemiology, and pharmacoepidemiology. With a prior background in pharmacy, I bring a unique combination of domain knowledge and analytical expertise to health data research, enabling me to uncover meaningful insights that inform evidence-based decision-making.
+I am a data analyst and research officer specializing in the analysis of large and complex datasets, with expertise in data mining, visualization, and statistical modeling. I have contributed to research across the fields of biostatistics, clinical epidemiology, and pharmacoepidemiology. With a prior background in pharmacy, I bring a unique combination of domain knowledge and analytical expertise to health data research, enabling me to uncover meaningful insights that inform evidence-based decision-making. \vspace{5pt}
 
 Over the years, I have worked extensively with large, linked administrative health datasets, developing a strong understanding of data integration, quality assurance, and population-level analysis. My work often involves transforming raw, complex data into actionable insights that support health policy and research initiatives. \vspace{-10pt}
 
@@ -73,24 +73,24 @@ Over the years, I have worked extensively with large, linked administrative heal
 \noindent
 R $\cdot$ SAS $\cdot$ R Shiny $\cdot$ Tableau $\cdot$ Power BI $\cdot$ GitHub
 
-Big Data Management $\cdot$ Reproducible Research $\cdot$ Data Visualization $\cdot$ Statistical Modeling $\cdot$ Data Storytelling $\cdot$ Dashboard Development
+Big Data Management $\cdot$ Reproducible Research $\cdot$ Data Visualization $\cdot$ Statistical Analysis $\cdot$ Data Storytelling $\cdot$ Dashboard Development
 \normalsize
 \vspace{-10pt}
 
 \section*{Education}\vspace{-8pt}
 \noindent
 \begin{longtable}{@{}p{3.5cm}p{6.5cm}p{5cm}@{}}
-\textbf{Sept 2021 -- Mar 2023} & \textbf{The University of New South Wales} & \textbf{M.S. Health Data Science} \\
+\textbf{Sept 2021 - Mar 2023} & \textbf{The University of New South Wales} & \textbf{M.S. Health Data Science} \\
 & & WAM: 88\% (Dissertation: 91\%) \\
 \multicolumn{3}{@{}l}{\textit{Dissertation: Changes in atherosclerotic cardiovascular disease risk over time among people living with HIV}} \\[2pt]
 
-\textbf{Mar 2015 -- Mar 2019} & \textbf{The University of Sydney} & \textbf{B.S. Pharmacy} \\
+\textbf{Mar 2015 - Mar 2019} & \textbf{The University of Sydney} & \textbf{B.S. Pharmacy} \\
 \end{longtable}
 \normalsize
 \vspace{-15pt}
 
 \section*{Employment History}\vspace{-8pt}
-\subsection*{Data-oriented Positions}\vspace{-6pt}
+\subsection*{Research-focused Positions}\vspace{-6pt}
 
 \begin{longtable}{@{}p{3.5cm}p{12cm}@{}}
 \textbf{July 2023 - Dec 2023; April 2025 - Present} &
@@ -102,9 +102,9 @@ Big Data Management $\cdot$ Reproducible Research $\cdot$ Data Visualization $\c
 \setlength\parskip{0.5pt}      % no extra paragraph space inside items
 \setlength\parsep{0.5pt}       % no extra paragraph separation
 \setlength\topsep{0.5em}     % space above/below list
-\item \textbf{Lead analyst for a nationwide study mapping multimorbidity disease clusters in older Australians} using large-scale national linked health administrative datasets. Responsibilities included conducting literature reviews, designing study methods, performing analyses, and developing advanced visualizations (e.g., network clustering using R (\textit{igraph}) package). Outputs included drafting the manuscript as first author and preparing conference abstracts and presentations.
+\item \textbf{Lead analyst, Nationwide study mapping multimorbidity disease clusters in older Australians} using large-scale national linked health administrative datasets. Responsibilities included conducting literature reviews, designing study methods, performing analyses, and developing advanced visualizations (e.g., network clustering using R (\textit{igraph}) package). Outputs included drafting the manuscript as first author and preparing conference abstracts and presentations.
 \item \textbf{Developed a comprehensive national dementia cohort} integrating hospital admissions, ED presentations, PBS, MBS, aged care, and death registrations to support future studies.
-\item \textbf{Lead analyst for Multi-Agency Data Integration Project (MADIP)} investigating high-risk prescribing patterns in older adults with dementia using linked PBS and Census data. Responsibilities included literature review, study design, descriptive analyses, and logistic regression modelling. Outputs included contributing to manuscripts, conference abstracts, and presentations.
+\item \textbf{Lead analyst, Multi-Agency Data Integration Project (MADIP)} investigating high-risk prescribing patterns in older adults with dementia using linked PBS and Census data. Responsibilities included literature review, study design, descriptive analyses, and logistic regression modelling. Outputs included contributing to manuscripts, conference abstracts, and presentations.
 \item \textbf{Collaborated with investigators, research partners, and stakeholders} to ensure timely project delivery.
 \end{itemize}
 
@@ -140,10 +140,10 @@ Big Data Management $\cdot$ Reproducible Research $\cdot$ Data Visualization $\c
 \subsection*{Clinical-focused Positions}
 
 \begin{longtable}{@{}p{3.5cm}p{12cm}@{}}
-\textbf{Mar 2021 -- Dec 2023} & \textbf{Pharmacist in Charge (FTE 0.2), Bondi Junction Pharmacy, Sydney, NSW} \\
-\textbf{Mar 2021 -- Dec 2023} & \textbf{Pharmacist on Duty (FTE 0.4), Blooms the Chemist, Bondi Junction, Sydney, NSW} \\
-\textbf{Mar 2020 -- Sept 2020} & \textbf{Registered Pharmacist, Chemist Warehouse, Double Bay, Sydney, NSW} \\
-\textbf{Dec 2018 -- Mar 2020} & \textbf{Graduate Intern Pharmacist, Chemist Warehouse, Randwick, Sydney, NSW} \\
+\textbf{Mar 2021 - Dec 2023} & \textbf{Pharmacist in Charge (FTE 0.2), Bondi Junction Pharmacy, Sydney, NSW} \\
+\textbf{Mar 2021 - Dec 2023} & \textbf{Pharmacist on Duty (FTE 0.4), Blooms the Chemist, Bondi Junction, Sydney, NSW} \\
+\textbf{Mar 2020 - Sept 2020} & \textbf{Registered Pharmacist, Chemist Warehouse, Double Bay, Sydney, NSW} \\
+\textbf{Dec 2018 - Mar 2020} & \textbf{Graduate Intern Pharmacist, Chemist Warehouse, Randwick, Sydney, NSW} \\
 \end{longtable}
 
 \textbf{Key Responsibilities:}
