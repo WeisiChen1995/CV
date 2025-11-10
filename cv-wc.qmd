@@ -111,7 +111,7 @@ Big Data Management $\cdot$ Reproducible Research $\cdot$ Data Visualization $\c
 
 \begin{longtable}{@{}p{3.5cm}p{12cm}@{}}
 \textbf{July 2023 - Mar 2025} &
-\textbf{Data Scientist / School of Population Health, The University of New South Wales} \\
+\textbf{Data Scientist / Research Officer, School of Population Health, The University of New South Wales} \\
 \end{longtable}
 
 
