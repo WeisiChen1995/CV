@@ -51,7 +51,7 @@ gscholar_page <- paste0("https://scholar.google.com/citations?user=", gscholar_i
 \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} l r}
 \begin{tabular}{l}
 \textbf{\Huge Weisi Chen} \\[6pt]  % adjust spacing as desired
-\textbf{Health Data Analyst/Research Officer} \\[50pt] 
+\textbf{Health Data Analyst} \\[50pt] 
 \end{tabular} &
 \begin{tabular}{r}
 Kensington, NSW 2033 \\
@@ -65,7 +65,7 @@ Kensington, NSW 2033 \\
 
 \section*{Brief Biography}\vspace{-8pt}
 \noindent
-I am a data analyst and research officer specializing in the analysis of large and complex datasets, with expertise in data mining, visualization, and statistical modeling. I have contributed to research across the fields of biostatistics, clinical epidemiology, and pharmacoepidemiology. With a prior background in pharmacy, I bring a unique combination of domain knowledge and analytical expertise to health data research, enabling me to uncover meaningful insights that inform evidence-based decision-making. \vspace{5pt}
+I am a data analyst specializing in the analysis of large and complex datasets, with expertise in data mining, visualization, and statistical modeling. I have contributed to research across the fields of biostatistics, clinical epidemiology, and pharmacoepidemiology. With a prior background in pharmacy, I bring a unique combination of domain knowledge and analytical expertise to health data research, enabling me to uncover meaningful insights that inform evidence-based decision-making. \vspace{5pt}
 
 Over the years, I have worked extensively with large, linked administrative health datasets, developing a strong understanding of data integration, quality assurance, and population-level analysis. My work often involves transforming raw, complex data into actionable insights that support health policy and research initiatives. \vspace{-10pt}
 
@@ -90,7 +90,7 @@ Big Data Management $\cdot$ Reproducible Research $\cdot$ Data Visualization $\c
 \vspace{-15pt}
 
 \section*{Employment History}\vspace{-8pt}
-\subsection*{Research-focused Positions}\vspace{-6pt}
+\subsection*{Data-focused Positions}\vspace{-6pt}
 
 \begin{longtable}{@{}p{3.5cm}p{12cm}@{}}
 \textbf{July 2023 - Dec 2023; April 2025 - Present} &
