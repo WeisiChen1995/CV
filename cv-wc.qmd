@@ -54,8 +54,7 @@ gscholar_page <- paste0("https://scholar.google.com/citations?user=", gscholar_i
 \textbf{Health Data Analyst} \\[50pt] 
 \end{tabular} &
 \begin{tabular}{r}
-Kensington, NSW 2033 \\
-{\large\Telefon} 0452 476 995 \\
+Sydney, NSW \\
 \textcolor{black}{\faEnvelope} weisi.0816@gmail.com \\
 \faGlobe \hspace{1mm} \href{https://weisichen.org}{weisichen.org} \\
 \faGithub \hspace{1mm} \href{https://github.com/WeisiChen1995}{WeisiChen1995}
@@ -102,7 +101,7 @@ Big Data Management $\cdot$ Reproducible Research $\cdot$ Data Visualization $\c
 \setlength\parskip{0.5pt}      % no extra paragraph space inside items
 \setlength\parsep{0.5pt}       % no extra paragraph separation
 \setlength\topsep{0.5em}     % space above/below list
-\item \textbf{Lead analyst, Nationwide study mapping multimorbidity disease clusters in older Australians} using large-scale national linked health administrative datasets. Responsibilities included conducting literature reviews, designing study methods, performing analyses, and developing advanced visualizations (e.g., network clustering using R (\textit{igraph}) package). Outputs included drafting the manuscript as first author and preparing conference abstracts and presentations.
+\item \textbf{Lead analyst, Nationwide study mapping multimorbidity disease clusters in older Australians} using large-scale national linked health administrative datasets. Responsibilities included conducting literature reviews, designing study methods, performing analyses, and developing advanced visualizations. Outputs included drafting the manuscript as first author and preparing conference abstracts and presentations.
 \item \textbf{Developed a comprehensive national dementia cohort} integrating hospital admissions, ED presentations, PBS, MBS, aged care, and death registrations to support future studies.
 \item \textbf{Lead analyst, Multi-Agency Data Integration Project (MADIP)} investigating high-risk prescribing patterns in older adults with dementia using linked PBS and Census data. Responsibilities included literature review, study design, descriptive analyses, and logistic regression modelling. Outputs included contributing to manuscripts, conference abstracts, and presentations.
 \item \textbf{Collaborated with investigators, research partners, and stakeholders} to ensure timely project delivery.
