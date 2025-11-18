@@ -51,10 +51,10 @@ gscholar_page <- paste0("https://scholar.google.com/citations?user=", gscholar_i
 \begin{tabular*}{\textwidth}{@{\extracolsep{\fill}} l r}
 \begin{tabular}{l}
 \textbf{\Huge Weisi Chen} \\[6pt]  % adjust spacing as desired
-\textbf{Health Data Analyst} \\[50pt] 
 \end{tabular} &
 \begin{tabular}{r}
-Sydney, NSW \\
+Kensington, NSW 2033 \\
+{\large\Telefon} 0452 476 995 \\
 \textcolor{black}{\faEnvelope} weisi.0816@gmail.com \\
 \faGlobe \hspace{1mm} \href{https://weisichen.org}{weisichen.org} \\
 \faGithub \hspace{1mm} \href{https://github.com/WeisiChen1995}{WeisiChen1995}
@@ -64,13 +64,13 @@ Sydney, NSW \\
 
 \section*{Brief Biography}\vspace{-8pt}
 \noindent
-I am a data analyst specializing in the analysis of large and complex datasets, with expertise in data mining, visualization, and statistical modeling. I have contributed to research across the fields of biostatistics, clinical epidemiology, and pharmacoepidemiology. With a prior background in pharmacy, I bring a unique combination of domain knowledge and analytical expertise to health data research, enabling me to uncover meaningful insights that inform evidence-based decision-making. \vspace{5pt}
+I am a health data analyst/biostatistician specializing in the analysis of large and complex datasets, with expertise in data mining, visualization, and statistical modeling. I have contributed to research across the fields of biostatistics, clinical epidemiology, and pharmacoepidemiology. With a prior background in pharmacy, I bring a unique combination of domain knowledge and analytical expertise to health data research, enabling me to uncover meaningful insights that inform evidence-based decision-making. \vspace{5pt}
 
 Over the years, I have worked extensively with large, linked administrative health datasets, developing a strong understanding of data integration, quality assurance, and population-level analysis. My work often involves transforming raw, complex data into actionable insights that support health policy and research initiatives. \vspace{-10pt}
 
 \section*{Technical Skills \& Expertise}\vspace{-6pt}
 \noindent
-R $\cdot$ SAS $\cdot$ R Shiny $\cdot$ Tableau $\cdot$ Power BI $\cdot$ GitHub
+SAS $\cdot$ R $\cdot$ R Shiny $\cdot$ Tableau $\cdot$ Power BI $\cdot$ GitHub
 
 Big Data Management $\cdot$ Reproducible Research $\cdot$ Data Visualization $\cdot$ Statistical Analysis $\cdot$ Data Storytelling $\cdot$ Dashboard Development
 \normalsize
@@ -89,21 +89,25 @@ Big Data Management $\cdot$ Reproducible Research $\cdot$ Data Visualization $\c
 \vspace{-15pt}
 
 \section*{Employment History}\vspace{-8pt}
-\subsection*{Data-focused Positions}\vspace{-6pt}
+\subsection*{Research-focused Positions}\vspace{-6pt}
 
 \begin{longtable}{@{}p{3.5cm}p{12cm}@{}}
 \textbf{July 2023 - Dec 2023; April 2025 - Present} &
 \textbf{Data Scientist / Research Officer, Sydney Pharmacy School, The University of Sydney} \\
 \end{longtable}
 
+
+\setlength\itemsep{0.5em}   
+\setlength\parskip{0.5pt}     
+\setlength\parsep{0.5pt}     
+\setlength\topsep{0.5em}   
+
+\textbf{Lead analyst on national studies using large-scale linked health data to map multimorbidity clusters and high-risk prescribing in older Australians. Experienced in study design, statistical analysis, cohort development, and translating complex data into actionable research outputs.} \vspace{5pt}
+
 \begin{itemize}
-\setlength\itemsep{0.5em}   % space between items
-\setlength\parskip{0.5pt}      % no extra paragraph space inside items
-\setlength\parsep{0.5pt}       % no extra paragraph separation
-\setlength\topsep{0.5em}     % space above/below list
 \item \textbf{Lead analyst, Nationwide study mapping multimorbidity disease clusters in older Australians} using large-scale national linked health administrative datasets. Responsibilities included conducting literature reviews, designing study methods, performing analyses, and developing advanced visualizations. Outputs included drafting the manuscript as first author and preparing conference abstracts and presentations.
-\item \textbf{Developed a comprehensive national dementia cohort} integrating hospital admissions, ED presentations, PBS, MBS, aged care, and death registrations to support future studies.
 \item \textbf{Lead analyst, Multi-Agency Data Integration Project (MADIP)} investigating high-risk prescribing patterns in older adults with dementia using linked PBS and Census data. Responsibilities included literature review, study design, descriptive analyses, and logistic regression modelling. Outputs included contributing to manuscripts, conference abstracts, and presentations.
+\item \textbf{Developed a comprehensive national dementia cohort} integrating hospital admissions, ED presentations, PBS, MBS, aged care, and death registrations to support future studies.
 \item \textbf{Collaborated with investigators, research partners, and stakeholders} to ensure timely project delivery.
 \end{itemize}
 
@@ -114,12 +118,14 @@ Big Data Management $\cdot$ Reproducible Research $\cdot$ Data Visualization $\c
 \end{longtable}
 
 
-\begin{itemize}
-\setlength\itemsep{0.5em}   % space between items
-\setlength\parskip{0.5pt}    % no extra paragraph space inside items
-\setlength\parsep{0.5pt}     % no extra paragraph separation
-\setlength\topsep{0.5em}     % space above/below list
+\setlength\itemsep{0.5em}   
+\setlength\parskip{0.5pt}    
+\setlength\parsep{0.5pt}    
+\setlength\topsep{0.5em}     
 
+\textbf{Lead analyst experienced in managing and analyzing large, linked health and social datasets, generating insights through statistical analysis and visualizations. Skilled in ethics and data governance, manuscript preparation, and collaborating with Aboriginal communities to ensure culturally appropriate research.} \vspace{5pt}
+
+\begin{itemize}
 \item \textbf{Lead analyst, Aboriginal Community Controlled Ear Health Support System (ACCESS) project.} Responsibilities included conducting literature reviews, drafting data management and analysis plans with research teams, preparing analysis-ready datasets from linked sources, and performing statistical analyses including descriptive statistics and visualizations to examine ear health patterns among Aboriginal children over time. Contributed to manuscripts, conference abstracts, and presentations.
 
 \item \textbf{Lead analyst, Evaluation of Sustaining NSW Families (NSW Health) project.} Responsibilities included conducting literature reviews, drafting and implementing data management and analysis plans for linked datasets, and performing analyses using target trial emulation with inverse probability of treatment weighting. Contributed to manuscripts, conference abstracts, and presentations.
@@ -131,7 +137,7 @@ Big Data Management $\cdot$ Reproducible Research $\cdot$ Data Visualization $\c
     \item Child Protection Reports, Out-of-Home Care Placements, Justice (Youth \& Adult Corrections), Public Housing, and Death Registrations
   \end{itemize}
  
-\item \textbf{Drafted ethics and data access applications}, contributed to ongoing reporting to committees and data custodians, and maintained regular communication with project investigators and Aboriginal community organizations to ensure culturally appropriate program delivery.
+\item \textbf{Supported project governance and ensured culturally appropriate program delivery through effective coordination, communication, and reporting activities}. Drafted ethics and data access applications, contributed to ongoing reporting to committees and data custodians, and maintained regular communication with project investigators and Aboriginal community organizations to ensure culturally appropriate program delivery.
 
 
 \end{itemize}
@@ -159,7 +165,7 @@ Big Data Management $\cdot$ Reproducible Research $\cdot$ Data Visualization $\c
 
 \section*{Research Interests}
 
-I am interested in ageing research and pharmacoepidemiology, and in advancing my expertise in statistical and analytical methods using large, linked health administrative datasets.
+I am interested in pharmacoepidemiology and in advancing my expertise in statistical and analytical methods using large, linked health administrative datasets.
 
 # Publications
 
