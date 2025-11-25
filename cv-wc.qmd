@@ -53,8 +53,6 @@ gscholar_page <- paste0("https://scholar.google.com/citations?user=", gscholar_i
 \textbf{\Huge Weisi Chen} \\[6pt]  % adjust spacing as desired
 \end{tabular} &
 \begin{tabular}{r}
-Kensington, NSW 2033 \\
-{\large\Telefon} 0452 476 995 \\
 \textcolor{black}{\faEnvelope} weisi.0816@gmail.com \\
 \faGlobe \hspace{1mm} \href{https://weisichen.org}{weisichen.org} \\
 \faGithub \hspace{1mm} \href{https://github.com/WeisiChen1995}{WeisiChen1995}
