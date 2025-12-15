@@ -163,7 +163,7 @@ Big Data Management $\cdot$ Reproducible Research $\cdot$ Data Visualization $\c
 
 \section*{Research Interests}
 
-I am interested in pharmacoepidemiology and in advancing my expertise in statistical and analytical methods using large, linked health administrative datasets.
+I am interested in ageing pharmacoepidemiology and in advancing my expertise in statistical and analytical methods using large, linked health administrative datasets.
 
 # Publications
 
