@@ -62,7 +62,7 @@ gscholar_page <- paste0("https://scholar.google.com/citations?user=", gscholar_i
 
 \section*{Brief Biography}\vspace{-8pt}
 \noindent
-I am a health data analyst/biostatistician specializing in the analysis of large and complex datasets, with expertise in data mining, visualization, and statistical modeling. I have contributed to research across the fields of biostatistics, clinical epidemiology, and pharmacoepidemiology. With a prior background in pharmacy, I bring a unique combination of domain knowledge and analytical expertise to health data research, enabling me to uncover meaningful insights that inform evidence-based decision-making. \vspace{5pt}
+I am a health data analyst specializing in the analysis of large and complex datasets, with expertise in data mining, visualization, and statistical modeling. I have contributed to research across the fields of biostatistics, clinical epidemiology, and pharmacoepidemiology. With a prior background in pharmacy, I bring a unique combination of domain knowledge and analytical expertise to health data research, enabling me to uncover meaningful insights that inform evidence-based decision-making. \vspace{5pt}
 
 Over the years, I have worked extensively with large, linked administrative health datasets, developing a strong understanding of data integration, quality assurance, and population-level analysis. My work often involves transforming raw, complex data into actionable insights that support health policy and research initiatives. \vspace{-10pt}
 
