@@ -78,7 +78,7 @@ Big Data Management $\cdot$ Reproducible Research $\cdot$ Data Visualization $\c
 \section*{Education}\vspace{-8pt}
 \noindent
 \begin{longtable}{@{}p{3.5cm}p{6.5cm}p{5cm}@{}}
-\textbf{Sept 2021 - Mar 2023} & \textbf{The University of New South Wales} & \textbf{M.S. Health Data Science} \\
+\textbf{Sept 2021 - May 2023} & \textbf{The University of New South Wales} & \textbf{M.S. Health Data Science} \\
 & & WAM: 88\% (Dissertation: 91\%) \\
 \multicolumn{3}{@{}l}{\textit{Dissertation: Changes in atherosclerotic cardiovascular disease risk over time among people living with HIV}} \\[2pt]
 
