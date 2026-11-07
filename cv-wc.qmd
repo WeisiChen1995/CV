@@ -3,9 +3,12 @@ format:
   pdf:
     include-in-header: 
       - text: |
+          \usepackage{enumitem}
+          \usepackage{hyperref}
           \usepackage{tabularx}
           \usepackage{xcolor}  
           \usepackage{fontawesome5}
+          \usepackage{academicons}
       - preamble.tex
     toc: false
     number-sections: false
@@ -53,9 +56,12 @@ gscholar_page <- paste0("https://scholar.google.com/citations?user=", gscholar_i
 \textbf{\Huge Weisi Chen} \\[6pt]  % adjust spacing as desired
 \end{tabular} &
 \begin{tabular}{r}
-Kensington, NSW 2033 \\
+\textcolor{black}{\faHome}\enspace Kensington, NSW 2033 \\
 {\large\Telefon} 0452 476 995 \\
-\textcolor{black}{\faEnvelope} weisi.0816@gmail.com \\
+\href{mailto:weisi.0816@gmail.com}{%
+  \textcolor{black}{\faEnvelope}\enspace
+  \textcolor{blue!65!black}{weisi.0816@gmail.com\,\faExternalLink*}%
+} \\
 \faGithub \hspace{1mm} \href{https://github.com/WeisiChen1995}{WeisiChen1995}
 \end{tabular}
 \end{tabular*}
@@ -63,15 +69,15 @@ Kensington, NSW 2033 \\
 
 \section*{Brief Biography}\vspace{-8pt}
 \noindent
-I hold a postgraduate qualification in Health Data Science (WAM: 88%). Since 2023, I have contributed to research across the fields of biostatistics, clinical epidemiology, and pharmacoepidemiology.\vspace{5pt}
+I hold a Bachelor of Pharmacy from the University of Sydney and a Master of Health Data Science from UNSW. I have over three years of research experience in epidemiology, population health and applied science. \vspace{5pt}
 
-Over the years, I have worked extensively with large, linked administrative health datasets, developing strong expertise in data integration, data quality assurance, and population-level analysis. I have experience working with the SURE, PLIDA, and NHDH data platforms and am proficient in statistical software, including SAS and R.\vspace{-10pt}
+Over the years, I have worked extensively with large, linked administrative health datasets, developing strong expertise in data integration, statistical modelling and population-level analysis. I have experience working with the SURE, PLIDA, and NHDH data platforms and am proficient in statistical software, particularly SAS and R.\vspace{-10pt}
 
 \section*{Technical Skills \& Expertise}\vspace{-6pt}
 \noindent
 SAS $\cdot$ R $\cdot$ R Shiny $\cdot$ GitHub
 
-Big Data Management $\cdot$ Reproducible Research $\cdot$ Data Visualization $\cdot$ Statistical Analysis $\cdot$ Data Storytelling 
+Big Data Management $\cdot$ Reproducible Research $\cdot$ Data Visualization $\cdot$ Statistical Modelling $\cdot$ Data Storytelling 
 \normalsize
 \vspace{-10pt}
 
@@ -88,55 +94,61 @@ Big Data Management $\cdot$ Reproducible Research $\cdot$ Data Visualization $\c
 \vspace{-15pt}
 
 \section*{Employment History}\vspace{-8pt}
-\subsection*{Research-focused Positions}\vspace{-6pt}
+\subsection*{Research-focused Positions}
+\vspace{5pt}
+
+\setlength{\LTpre}{0pt}
+\setlength{\LTpost}{0pt}
 
 \begin{longtable}{@{}p{3.5cm}p{12cm}@{}}
-\textbf{Mar 2023 - Dec 2023; April 2025 - Present} &
-\textbf{Data Scientist / Research Officer, Sydney Pharmacy School, The University of Sydney} \\
+\textbf{Mar 2026 - Present} &
+\textbf{Research Officer, NeuRA, UNSW} \\
 \end{longtable}
 
-
-\setlength\itemsep{0.5em}   
-\setlength\parskip{0.5pt}     
-\setlength\parsep{0.5pt}     
-\setlength\topsep{0.5em}   
-
-\textbf{Lead analyst on national studies using large-scale linked health data to map multimorbidity clusters and high-risk prescribing in older Australians. Experienced in study design, statistical analysis, cohort development, and translating complex data into actionable research outputs.} \vspace{5pt}
-
-\begin{itemize}
-
-\item \textbf{Lead analyst and first author, Multimorbidity clusters among males and females aged 65 years and over in Australia with at least one pharmaceutical or medical service claim: a nationwide cross-sectional data linkage study}. Responsibilities included conducting literature reviews, contributing to study design, performing statistical analyses (including network cluster analysis), developing advanced data visualisations, and drafting the first-author manuscript. Outputs include first-author manuscript accepted for publication in the Medical Journal of Australia and contributing to conference abstracts and presentations. 
-\item \textbf{Lead analyst, Multi-Agency Data Integration Project (MADIP)} investigating high-risk prescribing patterns in older adults with dementia using linked PBS and Census data. Responsibilities included literature review, study design, descriptive analyses, and logistic regression modelling. Outputs included contributing to manuscripts, conference abstracts, and presentations.
-\item \textbf{Lead analyst, Developed a comprehensive national dementia cohort} integrating hospital admissions, ED presentations, PBS, MBS, aged care, and death registrations
+\begin{itemize}[itemsep=1pt, topsep=1pt, parsep=1pt]
+    \item Led one systematic review and contributed to some systematic reviews investigating sex differences in dementia risk factors.
+    \item Lead analyst for a population-based longitudinal cohort study using data from the PATH Through Life Study.
+    \item Contributed to the international CARE project conducting sex-specific prevalence analyses of dementia risk factors to inform population-attributable risk estimations.
 \end{itemize}
+
+\vspace{10pt} 
+
+\begin{longtable}{@{}p{3.5cm}p{12cm}@{}}
+\textbf{Mar 2023 - Dec 2023; April 2025 - Mar 2026} &
+\textbf{Data Scientist, Sydney Pharmacy School, USYD} \\
+\end{longtable}
+
+\begin{itemize}[itemsep=1pt, topsep=1pt, parsep=1pt]
+    \item Lead analyst and first author of a nationwide cross-sectional data linkage study examining sex-specific multimorbidity patterns among Australians aged 65 years and older.
+    \item Lead analyst for a Multi-Agency Data Integration Project (MADIP) examining high-risk prescribing patterns among older Australians, including those living with dementia, using linked PBS and Census data.
+    \item Lead analyst in the development of a national dementia cohort integrating linked hospital admissions, emergency department presentations, PBS, MBS, aged care, and mortality data.
+\end{itemize}
+
+\vspace{10pt} 
 
 
 \begin{longtable}{@{}p{3.5cm}p{12cm}@{}}
-\textbf{July 2023 - Mar 2025} &
-\textbf{Data Scientist, School of Population Health, The University of New South Wales} \\
+\textbf{Jul 2023 -- Mar 2025} &
+\textbf{Data Scientist, School of Population Health, UNSW} \\
 \end{longtable}
 
-
-\setlength\itemsep{0.5em}   
-\setlength\parskip{0.5pt}    
-\setlength\parsep{0.5pt}    
-\setlength\topsep{0.5em}     
-
-\textbf{Analyst in managing and analyzing large, linked health and social datasets, generating insights through statistical analysis and visualizations. } \vspace{5pt}
-
-\begin{itemize}
-\item \textbf{Analyst, Aboriginal Community Controlled Ear Health Support System (ACCESS) project.} Responsibilities included conducting literature reviews, drafting data management and analysis plans with research teams, preparing analysis-ready datasets from linked sources, and performing statistical analyses including descriptive statistics and visualizations to examine ear health patterns among Aboriginal children over time under supervision.
-
-\item \textbf{Analyst, Evaluation of Sustaining NSW Families project.} Responsibilities included conducting literature reviews, drafting and implementing data management and analysis plans for linked datasets, and performing analyses using target trial emulation with inverse probability of treatment weighting under supervision. 
-
-\item \textbf{Assisted in building a large-scale linked data platform integrating multiple datasets for NSW Child E-Cohort Project}. 
-
+\begin{itemize}[itemsep=1pt, topsep=1pt, parsep=1pt]
+    \item Lead analyst for the Aboriginal Community Controlled Ear Health Support System (ACCESS) project, examining temporal trends in ear-related procedures among Aboriginal children.
+    \item Lead analyst for the evaluation of the Sustaining NSW Families program, assessing program outcomes using population health data.
+    \item Contributed to the development of a large-scale linked data platform integrating multiple administrative datasets for the NSW Child E-Cohort Project.
 \end{itemize}
 
+\subsection*{Clinical Experience}
+\vspace{5pt}
+
+\begin{longtable}{@{}p{3.5cm}p{12cm}@{}}
+\textbf{Nov 2018 -- Jul 2025} &
+\textbf{Registered Pharmacist, Community Pharmacy} \\
+\end{longtable}
 
 \section*{Research Interests}
 
-My research interests involve in ageing, multimorbidity clusters and trajectories, and high-risk prescribing, with a particular focus on developing and applying advanced statistical and analytical methods to large-scale linked health administrative data.
+My research interests involve in pharmacoepidemiology and ageing, with a particular focus on developing and applying advanced statistical and analytical methods to large-scale linked health administrative data.
 
 # Publications
 
@@ -144,9 +156,14 @@ My research interests involve in ageing, multimorbidity clusters and trajectorie
 
 \apptocmd{\tightlist}{\setlength{\itemsep}{4pt}}{}{}
 
+
 \begin{center}
-\href{https://scholar.google.com.au/citations?user=iCapTGoAAAAJ\&hl=en}{Google Scholar Profile}
+\href{https://scholar.google.com.au/citations?user=iCapTGoAAAAJ\&hl=en}{%
+    \textcolor{blue!65!black}{\large\aiGoogleScholar\ Google Scholar Profile}%
+}
 \end{center}
+
+
 
 ## A. Peer-reviewed Journal Articles
 
