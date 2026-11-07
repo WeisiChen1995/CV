@@ -165,7 +165,7 @@ My research interests involve in pharmacoepidemiology and ageing, with a particu
 
 
 
-## A. Peer-reviewed Journal Articles
+## Peer-reviewed Journal Articles
 
 ```{r}
 pubs <- get_cv_sheet('pubs') %>%
