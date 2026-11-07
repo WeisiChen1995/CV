@@ -71,7 +71,7 @@ gscholar_page <- paste0("https://scholar.google.com/citations?user=", gscholar_i
 \noindent
 I hold a Bachelor of Pharmacy from the University of Sydney and a Master of Health Data Science from UNSW. I have over three years of research experience in epidemiology, population health and applied science. \vspace{5pt}
 
-Over the years, I have worked extensively with large, linked administrative health datasets, developing strong expertise in data integration, statistical modelling and population-level analysis. I have experience working with the SURE, PLIDA, and NHDH data platforms and am proficient in statistical software, particularly SAS and R.\vspace{-10pt}
+Over the years, I have worked with large, linked administrative health datasets, developing strong expertise in data integration, statistical modelling and population-level analysis. I have experience working with the SURE, PLIDA, and NHDH data platforms and am proficient in statistical software, particularly SAS and R.\vspace{-10pt}
 
 \section*{Technical Skills \& Expertise}\vspace{-6pt}
 \noindent
